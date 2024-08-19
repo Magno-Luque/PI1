@@ -4,6 +4,7 @@
   <strong>UNIVERSIDAD PERUANA CAYETANO HEREDIA</strong>
 </p>
 
+<center><h1>UNIVERSIDAD PERUANA CAYETANO HEREDIAS</h1></center>
 <p align="center">
   <img src="escudo.png" alt="Descripción de la imagen">
 </p>
