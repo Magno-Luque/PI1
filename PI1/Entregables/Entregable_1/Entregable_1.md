@@ -1,33 +1,29 @@
-
----
-<p style="text-align: center; font-size: 25px;">
-  <strong>UNIVERSIDAD PERUANA CAYETANO HEREDIA</strong>
-</p>
-
-<center><h1>UNIVERSIDAD PERUANA CAYETANO HEREDIAS</h1></center>
-<p align="center">
-  <img src="escudo.png" alt="Descripción de la imagen">
-</p>
-
-<p style="text-align: center;font-size: 24px;">
-  <strong>Curso:</strong>
-</p>
-
-<p style="text-align: center;font-size: 24px;">
-  <lu>scd
-  <lu>xsxs
-</p>
+<div style="text-align: center;">
+    <h2 style="font-size: 36px; font-weight: bold;">UNIVERSIDAD PERUANA CAYETANO HEREDIA</h2>
+    <img src="escudo.png" alt="Descripción de la imagen">
+    <h2 style="font-size: 36px; font-weight: bold;">Curso:</h2>
+    <h2 style="font-size: 36px;">Proyectos de Ingeniería 1</h2>
+    <h2 style="font-size: 36px; font-weight: bold;">Integrantes:</h2>
+    <p style="font-size: 18px; margin-top: 10px;">
+        Llanos Angeles Leily Marlith<br>
+        Luque Mamani Magno Ricardo<br>
+        Mendoz Villar Antony Iván<br>
+        Quispe Baldeon Melissa<br>
+    </p>
+</div>
 
 
+#
+#
 
----
-• Introducción
 
-• Metodología [métodos utilizados]
+## **1. Introducción**
 
-• Resultados
+## **2. Metodología [métodos utilizados]**
 
-• Discusión [opcional]
+## **3. Resultados**
 
-• Referencias [en IEEE]
+## **4. Discusión [opcional]**
+
+## **5. Referencias [en IEEE]**
 
