@@ -1,6 +1,13 @@
-<div style="text-align: center;">
-    <h2 style="font-size: 36px; font-weight: bold;">UNIVERSIDAD PERUANA CAYETANO HEREDIA</h2>
+
+---
+
+
+<p align="center" style="font-size: 29px;">
+    <strong>UNIVERSIDAD PERUANA CAYETANO HEREDIA</strong>
     <img src="escudo.png" alt="Descripción de la imagen">
+</p>
+
+<div style="text-align: center;">
     <h2 style="font-size: 36px; font-weight: bold;">Curso:</h2>
     <h2 style="font-size: 36px;">Proyectos de Ingeniería 1</h2>
     <h2 style="font-size: 36px; font-weight: bold;">Integrantes:</h2>
