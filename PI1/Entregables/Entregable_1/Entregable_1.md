@@ -1,7 +1,7 @@
 ![alt text](image.png)
 
 # **Curso:**
-### Proyectos de Ingeniería
+### Proyectos de Ingeniería 1
 
 # **Integrantes:**
 - Llanos Angeles Leily Marlith
