@@ -1,5 +1,10 @@
 ![alt text](image.png)
 
+# **Curso:**
+### Proyectos de Ingeniería
+<h2 style="font-size: 36px;">Proyectos de Ingeniería 1</h2>
+
+
 <div style="text-align: center;">
     <h2 style="font-size: 36px; font-weight: bold;">Curso:</h2>
     <h2 style="font-size: 36px;">Proyectos de Ingeniería 1</h2>
