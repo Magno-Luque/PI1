@@ -1,6 +1,4 @@
-<p style="text-align: center; font-weight: bold; font-size: 29px;">
-    UNIVERSIDAD PERUANA CAYETANO HEREDIA
-</p>
+<center> <h1>heading 1</h1> </center>
 
 <p align="center" style="font-size: 29px;">
     <strong>UNIVERSIDAD PERUANA CAYETANO HEREDIA</strong>
