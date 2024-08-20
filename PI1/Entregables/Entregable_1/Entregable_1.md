@@ -9,8 +9,11 @@
 - Mendoz Villar Antony Iván
 - Quispe Baldeon Melissa
 
-
-
+# **Docentes:**
+- Umbert Lewis de la Cruz Rodríguez
+- Renzo Jose Chan Rios
+- Moisés Stevend Meza Rodríguez
+- Harry Anderson Rivera Tito
 
 #
 #
