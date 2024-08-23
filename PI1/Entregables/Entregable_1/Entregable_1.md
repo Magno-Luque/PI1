@@ -1,5 +1,8 @@
 ![alt text](image.png)
 
+# Tema:
+### Regresión en el Aprendizaje Automático para la Predicción de la Concentración de Ozono en Baldwin Country, Alabama, EE.UU.
+
 # **Curso:**
 ### Proyectos de Ingeniería 1
 
