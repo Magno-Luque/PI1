@@ -43,8 +43,9 @@ Nu
 
 ## **5. Referencias [en IEEE]**
 - [1] L. Queen, "Componente Regresión Lineal," *Learn*, 2023.
-- 
+-
   
 - [2] A. Ospina Montoya y M. A. Garrido Tamayo, "Técnicas de medición de ozono: Métodos tradicionales frente al método de cámara de absorción con led ultravioleta como fuente de luz," *Revista Gestión y Ambiente*, vol. 16, no. 02, pp. 95-104, 2013.
 
+- [3] Alonso Rodriguez, A. (2021). La predicción de series temporales mediante el modelo de regresión. *Anuario Jurídico y Económico Escurialense.*
 
