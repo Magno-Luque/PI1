@@ -35,6 +35,8 @@ El informe se estructura en varias secciones: comienza con la metodología utili
 
 ## **2. Metodología**
 
+Nu
+
 ## **3. Resultados**
 
 ## **4. Discusión [opcional]**
