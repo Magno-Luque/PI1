@@ -15,8 +15,10 @@
 # **Docentes:**
 - Umbert Lewis de la Cruz Rodríguez
 - Renzo Jose Chan Rios
+- Marcos Miguel Retamozo Ramos
 - Moisés Stevend Meza Rodríguez
 - Harry Anderson Rivera Tito
+- Pierre Giovanny Ramos Apestegui
 
 #
 #
