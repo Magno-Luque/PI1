@@ -1,7 +1,7 @@
 ![alt text](image.png)
 
 # Tema:
-### Regresión en el Aprendizaje Automático para la Predicción de la Concentración de Ozono en Baldwin County, Alabama, EE.UU., 2022-2023
+### Regresión en el Aprendizaje Automático para Predecir la Concentración de Ozono en el Condado de Baldwin, Alabama, EE.UU. (2022-2023)
 
 # **Curso:**
 ### Proyectos de Ingeniería 1
