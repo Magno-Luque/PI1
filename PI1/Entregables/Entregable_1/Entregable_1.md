@@ -33,7 +33,7 @@ Para llevar a cabo esta predicción, se emplea la regresión lineal, una técnic
 
 El informe se estructura en varias secciones: comienza con la metodología utilizada para el análisis, seguido de los resultados obtenidos, y concluye con una discusión de los hallazgos y recomendaciones.
 
-## **2. Metodología [métodos utilizados]**
+## **2. Metodología**
 
 ## **3. Resultados**
 
