@@ -42,10 +42,17 @@ Nu
 ## **4. Discusión [opcional]**
 
 ## **5. Referencias [en IEEE]**
-- [1] L. Queen, "Componente Regresión Lineal," *Learn*, 2023.
--
-  
-- [2] A. Ospina Montoya y M. A. Garrido Tamayo, "Técnicas de medición de ozono: Métodos tradicionales frente al método de cámara de absorción con led ultravioleta como fuente de luz," *Revista Gestión y Ambiente*, vol. 16, no. 02, pp. 95-104, 2013.
 
-- [3] Alonso Rodriguez, A. (2021). La predicción de series temporales mediante el modelo de regresión. *Anuario Jurídico y Económico Escurialense.*
+- [1] I. Lee, “Series de Tiempo: Forecasting con XGBoost,” Medium, Apr. 10, 2023. [En Línea] . Disponible:  https://ivan-lee.medium.com/series-de-tiempo-con-xgboost-f732f1da3056.  [Accedido: Ago. 25, 2024].
+
+- [2]R. Holbrook, "Time Series," Kaggle. [En línea]. Disponible: https://www.kaggle.com/learn/time-series.  [Accedido: Ago. 25, 2024].
+
+- [3] Alabama Department of Environmental Management, "2023 Annual Ambient Air Quality Monitoring Plan," Jul. 26, 2023. [En línea]. Disponible: https://adem.alabama.gov/programs/air/airquality/2023AmbientAirPlan.pdf. [Accedido: Ago. 25, 2024].
+
+- [4] Alabama Department of Environmental Management, "2022 Ambient Air Monitoring Network Plan," Jul. 01, 2022. [En línea]. Disponible: https://adem.alabama.gov/programs/air/airquality/2022AmbientAirPlan.pdf. [Accedido: Ago. 25, 2024].
+
+- [5] A. Ospina Montoya y M. A. Garrido Tamayo, "Técnicas de medición de ozono: Métodos tradicionales frente al método de cámara de absorción con led ultravioleta como fuente de luz," Gestión y Ambiente, vol. 16, no. 2, pp. 95-104, ago. 2013. Disponible en: https://www.redalyc.org/articulo.oa?id=16942824020008. [Accedido: Ago. 25, 2024].
+ 
+
+- [] Alonso Rodriguez, A. (2021). La predicción de series temporales mediante el modelo de regresión. *Anuario Jurídico y Económico Escurialense.*
 
