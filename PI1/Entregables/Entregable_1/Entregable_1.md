@@ -53,6 +53,5 @@ Nu
 
 - [5] A. Ospina Montoya y M. A. Garrido Tamayo, "Técnicas de medición de ozono: Métodos tradicionales frente al método de cámara de absorción con led ultravioleta como fuente de luz," Gestión y Ambiente, vol. 16, no. 2, pp. 95-104, ago. 2013. Disponible en: https://www.redalyc.org/articulo.oa?id=16942824020008. [Accedido: Ago. 25, 2024].
  
-
-- [] Alonso Rodriguez, A. (2021). La predicción de series temporales mediante el modelo de regresión. *Anuario Jurídico y Económico Escurialense.*
+- [6] A. Alonso-Rodriguez, «La predicción de series temporales mediante el modelo de regresión», AJEE, n.º 54, pp. 261–280, mar. 2021.
 
