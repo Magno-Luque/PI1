@@ -155,15 +155,24 @@ En conclusión, el análisis y modelado de la calidad del aire en el Condado de 
 
 ## **6. Referencias [en IEEE]**
 
-- [1] I. Lee, “Series de Tiempo: Forecasting con XGBoost,” Medium, Apr. 10, 2023. [En Línea] . Disponible:  https://ivan-lee.medium.com/series-de-tiempo-con-xgboost-f732f1da3056.  [Accedido: Ago. 25, 2024].
++ [1] I. Lee, “Series de Tiempo: Forecasting con XGBoost,” *Medium*, Apr. 10, 2023. [En línea]. Disponible: https://ivan-lee.medium.com/series-de-tiempo-con-xgboost-f732f1da3056. [Accedido: Ago. 25, 2024].
 
-- [2]R. Holbrook, "Time Series," Kaggle. [En línea]. Disponible: https://www.kaggle.com/learn/time-series.  [Accedido: Ago. 25, 2024].
++ [2] R. Holbrook, "Time Series," *Kaggle*. [En línea]. Disponible: https://www.kaggle.com/learn/time-series. [Accedido: Ago. 25, 2024].
 
-- [3] Alabama Department of Environmental Management, "2023 Annual Ambient Air Quality Monitoring Plan," Jul. 26, 2023. [En línea]. Disponible: https://adem.alabama.gov/programs/air/airquality/2023AmbientAirPlan.pdf. [Accedido: Ago. 25, 2024].
++ [3] Alabama Department of Environmental Management, "2023 Annual Ambient Air Quality Monitoring Plan," Jul. 26, 2023. [En línea]. Disponible: https://adem.alabama.gov/programs/air/airquality/2023AmbientAirPlan.pdf. [Accedido: Ago. 25, 2024].
 
-- [4] Alabama Department of Environmental Management, "2022 Ambient Air Monitoring Network Plan," Jul. 01, 2022. [En línea]. Disponible: https://adem.alabama.gov/programs/air/airquality/2022AmbientAirPlan.pdf. [Accedido: Ago. 25, 2024].
++ [4] Alabama Department of Environmental Management, "2022 Ambient Air Monitoring Network Plan," Jul. 01, 2022. [En línea]. Disponible: https://adem.alabama.gov/programs/air/airquality/2022AmbientAirPlan.pdf. [Accedido: Ago. 25, 2024].
 
-- [5] A. Ospina Montoya y M. A. Garrido Tamayo, "Técnicas de medición de ozono: Métodos tradicionales frente al método de cámara de absorción con led ultravioleta como fuente de luz," Gestión y Ambiente, vol. 16, no. 2, pp. 95-104, ago. 2013. Disponible en: https://www.redalyc.org/articulo.oa?id=16942824020008. [Accedido: Ago. 25, 2024].
- 
-- [6] A. Alonso-Rodriguez, «La predicción de series temporales mediante el modelo de regresión», AJEE, n.º 54, pp. 261–280, mar. 2021.
++ [5] A. Ospina Montoya y M. A. Garrido Tamayo, "Técnicas de medición de ozono: Métodos tradicionales frente al método de cámara de absorción con led ultravioleta como fuente de luz," *Gestión y Ambiente*, vol. 16, no. 2, pp. 95-104, ago. 2013. Disponible en: https://www.redalyc.org/articulo.oa?id=16942824020008. [Accedido: Ago. 25, 2024].
+
++ [6] A. Alonso-Rodriguez, "La predicción de series temporales mediante el modelo de regresión," *AJEE*, no. 54, pp. 261–280, mar. 2021.
+
++ [7] C. Monardes, “Análisis de Series de Tiempo y Pronósticos,” *Youtube*, Feb. 9, 2022. [Archivo de Vídeo]. Disponible: https://www.youtube.com/watch?v=aUwXWGa8jK0.
+
++ [8] Codificando Bits, “Tutorial: ¿Cómo DESCOMPONER una serie de tiempo?” *Youtube*, Apr. 22, 2024. [Archivo de Vídeo]. Disponible: https://www.youtube.com/watch?v=aUwXWGa8jK0.
+
++ [9] K. Rojas-Jimenez, "Capítulo 8 análisis de series de tiempo," *Bookdown.org*. [En línea]. Disponible: https://bookdown.org/keilor_rojas/CienciaDatos/an%C3%A1lisis-de-series-de-tiempo.html. [Accedido: Ago. 26, 2024].
+
++ [10] (S/f). "Tema 6 EctrGrado," *Ucm.es*. [En línea]. Disponible: https://www.ucm.es/data/cont/docs/518-2013-10-25-Tema_6_EctrGrado.pdf. [Accedido: Ago. 26, 2024].
+
 
