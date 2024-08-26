@@ -112,7 +112,7 @@ Una vez contada con nuestro modelo de regresión procedemos a ejecutar para de e
 
 De acuerdo a las implementaciones realizadas, ahora es posible observar las proyecciones futuras de las mediciones de calidad del aire para los meses de marzo y octubre del año 2024. Los resultados obtenidos muestran que los valores del Índice de Calidad del Aire (AQI) se mantienen dentro de un rango constante entre 30 y 50. Estos valores indican una tendencia ascendente a lo largo de estos meses, sugiriendo que la calidad del aire puede estar deteriorándose progresivamente durante este periodo. Y en todo esto jugó un papel muy importante el análisis y la predicción de series temporales, ya que estos va a permitir entender mejor los patrones y tendencia de datos ambientales como los índices de la calidad del aire. Esta capacidad de predecir futuras mediciones es crucial para la planificación y la implementación de estrategias de mitigación de la contaminación atmosférica. Por lo cuál según Rahman et al. (2016), la elección adecuada de retrasos en los modelos de series temporales mejora significativamente la precisión de las predicciones, lo que es fundamental para evaluar el impacto potencial de las políticas ambientales.
 
-![alt text](image-2.png)
+![alt text](image-13.png)
 
 ## **4. Discusión**
 
