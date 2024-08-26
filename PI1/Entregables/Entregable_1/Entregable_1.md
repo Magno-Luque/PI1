@@ -34,7 +34,7 @@ El informe se estructura en varias secciones: comienza con la metodología utili
 
 ## **2. Metodología**
 
-Nuestro modelo predictivo se basa en la implementación de técnicas de series temporales, que se incluirá el siguiente enfoque: función de paso de tiempo (Alonso Rodriguez, 2021). Es importante señalar que, para llevar a cabo la predicción de un modelo, es necesario que los datos de entrenamiento estén bien preparados, para así aplicar estas técnicas de manera adecuada y capturar patrones en los datos temporales.
+Nuestro modelo predictivo se basa en la implementación de técnicas de series temporales, que se incluirá el siguiente enfoque:  Retardos como regresores de un modelo (Alonso Rodriguez, 2021). Es importante señalar que, para llevar a cabo la predicción de un modelo, es necesario que los datos de entrenamiento estén bien preparados, para así aplicar estas técnicas de manera adecuada y capturar patrones en los datos temporales.
 
 Las etapas se basaron en los siguientes:
 
@@ -85,32 +85,59 @@ La serie observada en color azul muestra las mediciones originales de calidad de
 Tendencia: La línea roja representa la tendencia a largo plazo de la serie temporal. Se puede observar que la tendencia no es constante; en los primeros meses, hay un descenso gradual, lo que sugiere un empeoramiento de la calidad del aire. Posteriormente, la tendencia muestra un aumento, indicando una mejora en la calidad del aire, seguido de otro descenso hacia el final del periodo. Estos cambios en la tendencia pueden reflejar variaciones estacionales más amplias o eventos específicos que afectaron la calidad del aire en esos períodos.
 
 Estacionalidad: La componente estacional, mostrada en color verde, captura patrones que se repiten en intervalos regulares de tiempo. En el gráfico, se observa un patrón estacional claro, lo que sugiere que hay ciclos repetitivos en la calidad del aire. 
+
 Residuos: La serie de residuos en color negro representa la parte de la serie temporal que no puede ser explicada por la tendencia ni la estacionalidad. Estos residuos parecen estar distribuidos de manera aleatoria alrededor de cero, sin un patrón aparente. Esto es un buen indicador de que la descomposición ha capturado adecuadamente las componentes de tendencia y estacionalidad, dejando sólo el "ruido" o variaciones aleatorias en los residuos.
-A partir del análisis de la descomposición de la serie temporal de calidad del aire, se puede concluir que la serie presenta tanto tendencia como estacionalidad. La tendencia muestra variaciones en la calidad del aire a lo largo del tiempo, lo cual podría estar asociado a cambios estacionales amplios o eventos específicos.
 
-Para mejorar el modelo, se implementaron funciones de retraso, las cuales consisten en cambiar las observaciones de la serie objetivo para que aparezca más tarde en el tiempo. Esta técnica permite capturar la relación de la relación de las observaciones actuales con las anteriores.
+A partir del análisis de la descomposición de la serie temporal de calidad del aire, se puede concluir que la serie presenta tanto tendencia como estacionalidad. La tendencia muestra variaciones en la calidad del aire a lo largo del tiempo, lo cual podría estar asociado a cambios estacionales amplios o eventos específicos. 
 
-![alt text](image-9.png)
+## Modelo “Aditivo”
 
-Una vez realizada la primera función de retraso, procedemos a graficar y verificar los respectivos datos en función del tiempo y de esa manera verificar su linealidad.
+![alt text](image-14.png)
 
-![alt text](image-10.png)
+## Modelo “Multiplicativo”
 
-Seguidamente se procede a implementar la segunda técnica de retraso y graficarlo para que de esa manera se pueda graficar correctamente.
+![alt text](image-15.png)
 
-![alt text](image-11.png)
+Dado que ambos modelos tienen la menor media de residuos en el periodo de 7, nos basaremos en elegir el modelo aditivo porque la amplitud de la estacionalidad es constante.
 
-También, procedemos a sacar la media considerando los meses de cada año que esto nos permitirá a predecir el futuro teniendo en cuenta nuestro modelo, por lo cual se está usando las series temporales
+## ESTACIONARIEDAD
 
-![alt text](image-12.png)
+![alt text](image-16.png)
 
-Una vez contada con nuestro modelo de regresión procedemos a ejecutar para de esa manera poder predecir los resultados futuros.
+Basándonos en la función de autocorrelación (ACF), podemos observar cómo se comportan las autocorrelaciones en diferentes rezagos (lags):
+
+Autocorrelación Alta en Lags Bajos: En la gráfica, se observa una alta autocorrelación en los primeros lags, lo cual es común en series no estacionarias. Esto indica una fuerte relación entre los valores cercanos en el tiempo.
+
+Decaimiento Lento: La autocorrelación no disminuye rápidamente a cero, lo que sugiere que la serie puede tener una tendencia o una componente estacional, características de una serie no estacionaria.
+
+Comportamiento Aleatorio en Lags Altos: La mayoría de las autocorrelaciones en lags más altos están dentro del intervalo de confianza (el área sombreada), lo que podría indicar que no hay correlación significativa en esos lags.
+
+![alt text](image-17.png)
+
+La gráfica de la Función de Autocorrelación Parcial (PACF) muestra la relación entre los valores de una serie temporal y sus rezagos, destacando que el primer lag tiene una alta correlación, lo que indica una fuerte dependencia del valor actual respecto al anterior. A medida que se incrementan los lags, los valores de autocorrelación parcial disminuyen rápidamente y se estabilizan en torno a cero, sugiriendo que no hay correlaciones significativas en rezagos posteriores. 
+
+![alt text](image-18.png)
+
+Dado que el estadístico ADF es mucho menor que los valores críticos y el valor p es significativamente menor que 0.05, podemos rechazar la hipótesis nula. Esto indica que la serie es estacionaria.
+
+
+Por lo tanto, no necesitas aplicar transformaciones adicionales (como diferenciación) para hacerla estacionaria antes de ajustar tu modelo de regresión. Puedes proceder con el modelado sabiendo que la serie no tiene tendencia ni estacionalidad que deban ser corregidas.
+
+![alt text](image-19.png)
+
+La visualización utilizando una media móvil de 7 días para el Índice de Calidad del Aire (AQI) es efectiva para destacar la tendencia general en los datos, suavizando las variaciones diarias que pueden oscurecer patrones importantes. Las bandas de ±1 desviación estándar alrededor de la media móvil son particularmente útiles para visualizar la variabilidad y detectar periodos de mayor o menor volatilidad en la calidad del aire. Además, la inclusión de puntos marcadores en los datos originales facilita la correlación entre eventos específicos y los valores de AQI.
+
+Para mejorar el análisis, se podría considerar ajustar la ventana de la media móvil para explorar tendencias a largo plazo con mayor profundidad, utilizando ventanas más amplias como 14 o 30 días. También sería valioso incorporar un análisis estacional para descomponer las series temporales en sus componentes de tendencia, estacionalidad y ruido, lo que podría proporcionar una visión más detallada de cómo varía la calidad del aire en función de las estaciones. Comparar las tendencias con datos de años anteriores permitiría evaluar cambios a largo plazo y el impacto de políticas ambientales.
+
 
 ## **3. Resultados**
 
-De acuerdo a las implementaciones realizadas, ahora es posible observar las proyecciones futuras de las mediciones de calidad del aire para los meses de marzo y octubre del año 2024. Los resultados obtenidos muestran que los valores del Índice de Calidad del Aire (AQI) se mantienen dentro de un rango constante entre 30 y 50. Estos valores indican una tendencia ascendente a lo largo de estos meses, sugiriendo que la calidad del aire puede estar deteriorándose progresivamente durante este periodo. Y en todo esto jugó un papel muy importante el análisis y la predicción de series temporales, ya que estos va a permitir entender mejor los patrones y tendencia de datos ambientales como los índices de la calidad del aire. Esta capacidad de predecir futuras mediciones es crucial para la planificación y la implementación de estrategias de mitigación de la contaminación atmosférica. Por lo cuál según Rahman et al. (2016), la elección adecuada de retrasos en los modelos de series temporales mejora significativamente la precisión de las predicciones, lo que es fundamental para evaluar el impacto potencial de las políticas ambientales.
+De acuerdo a las implementaciones realizadas, ahora es posible observar las proyecciones futuras de las mediciones de calidad del aire y esto juega muy importante el análisis y la predicción de series temporales, ya que estos va a permitir entender mejor los patrones y tendencia de datos ambientales como los índices de la calidad del aire. Esta capacidad de predecir futuras mediciones es crucial para la planificación y la implementación de estrategias de mitigación de la contaminación atmosférica. Por lo cuál según Rahman et al. (2016), la elección adecuada de retrasos en los modelos de series temporales mejora significativamente la precisión de las predicciones, lo que es fundamental para evaluar el impacto potencial de las políticas ambientales.Como se puede observar a continuación, experimentamos con tres modelos: 
+El primer modelo de XGBoost, configurado con sus parámetros predeterminados, logró un rendimiento sólido, obteniendo una RMSE de 8.91 y un R² de 0.64. Esto indica que el modelo capturó bien las variaciones en los datos, proporcionando predicciones precisas sin necesidad de ajustes adicionales. La baja RMSE y el R² razonablemente alto muestran que el modelo base de XGBoost fue efectivo en explicar la variabilidad en la calidad del aire, representando un buen punto de partida.
 
-![alt text](image-13.png)
+Al intentar mejorar el rendimiento mediante la optimización de hiperparámetros con GridSearchCV, se observó un ligero deterioro, con la RMSE aumentando a 9.07 y el R² disminuyendo a 0.63. Esto sugiere que la optimización no siempre garantiza mejoras y, en este caso, podría haber llevado a un sobreajuste o a la selección de hiperparámetros menos adecuados para los datos.
+
+El modelo RandomForestRegressor, optimizado con RandomizedSearchCV, obtuvo resultados similares al modelo optimizado de XGBoost, con una RMSE de 9.05 y un R² de 0.63. Aunque RandomForest es una técnica robusta, no superó al modelo base de XGBoost en este caso, lo que resalta la importancia de evaluar modelos básicos antes de proceder con optimizaciones. En general, aunque la optimización no mejoró los resultados, tanto XGBoost como RandomForest siguen siendo enfoques valiosos, especialmente cuando se busca equilibrar precisión y eficiencia computacional.
 
 ## **4. Discusión**
 
@@ -118,12 +145,13 @@ Los datos analizados reflejan la calidad del aire, específicamente en relación
 
 Los valores de AQI observados en el periodo analizado muestran una variabilidad considerable. Comenzando en marzo de 2022 con un AQI de 50, que indica una calidad del aire moderada, se registraron fluctuaciones en los días siguientes, alcanzando un pico de 58 el 4 de marzo. Esta variabilidad puede atribuirse a factores estacionales, como el aumento de la temperatura y la radiación solar, que son propensos a incrementar la formación de ozono a nivel del suelo.
 
-Durante octubre de 2023, los valores de AQI oscilaron entre 34 y 39, lo que sugiere una mejora en la calidad del aire en comparación con los niveles más altos observados en 2022. Estos valores más bajos son alentadores y podrían reflejar una reducción en las fuentes de emisión de ozono, como el tráfico vehicular o las actividades industriales, así como una mayor conciencia pública sobre la contaminación del aire.
+Durante octubre de 2023, los valores de AQI oscilaron entre 34 y 39, lo que sugiere una mejora en la calidad del aire en comparación con los niveles más altos observados en 2022. Estos valores más bajos son alentadores y podrían reflejar una reducción en las fuentes de emisión de ozono.
 
-Los datos de calidad del aire para el año 2024 muestran una tendencia preocupante que merece atención. Las predicciones indican que, a partir de marzo, los niveles de calidad del aire se mantienen relativamente estables, con valores que oscilan entre 41.55 y 41.60. Sin embargo, a medida que avanzamos hacia octubre, se observa un aumento significativo en las predicciones, alcanzando valores superiores a 44.43. En conclusión, los datos de 2024 sugieren que, sin una intervención adecuada, podríamos enfrentar un deterioro continuo en la calidad del aire. 
+En la evaluación de los modelos, el XGBoost configurado con parámetros predeterminados mostró un rendimiento superior en comparación con las versiones optimizadas y el RandomForestRegressor, lo que sugiere que la complejidad adicional de la optimización de hiperparámetros no siempre resulta en mejoras significativas. El hecho de que la optimización con GridSearchCV empeora levemente el rendimiento del XGBoost indica que una selección cuidadosa de los hiperparámetros es crucial, y que, en algunos casos, un modelo base bien configurado puede ser más efectivo. Por otro lado, aunque el RandomForestRegressor optimizado no superó al XGBoost, sus resultados competitivos resaltan su utilidad como una herramienta robusta, especialmente cuando se busca un equilibrio entre precisión y eficiencia. Este análisis subraya la importancia de evaluar los modelos base antes de recurrir a técnicas más complejas, ya que los beneficios de la optimización no siempre son garantizados.
+ 
 
 ## **Conclusión:**
-El análisis de la calidad del aire en Fairhope, Alabama, revela tendencias importantes en la contaminación por ozono que requieren atención continua. La variabilidad en los niveles de AQI destaca la necesidad de una vigilancia constante y la implementación de estrategias efectivas para proteger la salud pública y mejorar la calidad del aire en la región./
+En conclusión, el análisis y modelado de la calidad del aire en el Condado de Baldwin, Alabama, durante 2022 y 2023, han revelado la eficacia de los modelos de regresión para predecir los niveles de ozono. El XGBoost, con sus parámetros predeterminados, demostró ser el modelo más eficaz, subrayando que una buena configuración inicial puede superar a versiones optimizadas o modelos alternativos como RandomForest. Además, la variabilidad observada en los niveles de AQI resalta la influencia de factores estacionales y climáticos en la calidad del aire. Estos hallazgos son valiosos para la implementación de estrategias de mitigación que aborden la contaminación atmosférica y protejan la salud pública.
 
 ## **6. Referencias [en IEEE]**
 
