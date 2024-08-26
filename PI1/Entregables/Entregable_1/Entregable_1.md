@@ -26,11 +26,11 @@
 
 ## **1. Introducción**
 
-La calidad del aire se ha convertido en un tema de creciente preocupación a nivel global, especialmente en entornos urbanos donde la contaminación puede tener efectos adversos significativos en la salud pública y el medio ambiente. Entre los contaminantes atmosféricos, la concentración de ozono troposférico se destaca como un elemento crítico, ya que niveles elevados de este gas pueden provocar problemas respiratorios y contribuir a enfermedades cardiovasculares. Este informe se centra en el análisis de los niveles de ozono en el Condado de Baldwin, Alabama, durante los años 2022 y 2023, con el objetivo de predecir su comportamiento en los meses siguientes.
+La calidad del aire es un tema de creciente preocupación a nivel global, especialmente en entornos urbanos donde la contaminación puede tener efectos adversos significativos en la salud pública y el medio ambiente. Entre los contaminantes atmosféricos, el ozono troposférico es un elemento crítico, ya que niveles elevados de este gas pueden provocar problemas respiratorios y contribuir a enfermedades cardiovasculares. Este informe se centra en el análisis de los niveles de ozono en el Condado de Baldwin, Alabama, durante los años 2022 y 2023, con el objetivo de predecir su comportamiento en los meses siguientes.
 
-Para llevar a cabo esta predicción, se emplea la regresión lineal, una técnica de machine learning que permite modelar la relación entre variables y realizar inferencias sobre datos futuros. La regresión lineal es un método estadístico que busca establecer una relación lineal entre una variable dependiente y una o más variables independientes, facilitando la comprensión de cómo diferentes factores pueden influir en la calidad del aire.
+Para llevar a cabo esta predicción, se ha empleado la regresión lineal con series temporales, una técnica avanzada de análisis que permite modelar y predecir patrones en datos cronológicos. A diferencia de la regresión lineal tradicional, que establece una relación lineal entre una variable dependiente y una o más variables independientes, la regresión de series temporales utiliza datos históricos para identificar tendencias y patrones a lo largo del tiempo. Este enfoque es particularmente útil para entender cómo varían los niveles de ozono en función de múltiples factores temporales y predecir su evolución futura.
 
-El informe se estructura en varias secciones: comienza con la metodología utilizada para el análisis, seguido de los resultados obtenidos, y concluye con una discusión de los hallazgos y recomendaciones.
+El informe se estructura en varias secciones: comienza con la metodología utilizada para el análisis, seguida de los resultados obtenidos y concluye con una discusión de los hallazgos y recomendaciones basadas en el comportamiento proyectado de los niveles de ozono en el Condado de Baldwin.
 
 ## **2. Metodología**
 
@@ -42,12 +42,12 @@ Las etapas se basaron en los siguientes:
 En esta etapa se obtuvieron los DataFrames de la base de datos de la Agencia de Protección Ambiental de Estados Unidos (EPA), específicamente, información de la calidad de aire de los años 2022 y 2023 en el Condado de Baldwin, Alabama, EE. UU. En esta, se registraron datos diarios correspondiente al estado del aire exterior para el Ozono como contaminante. 
 
 ### 2.2 Preparación de los datos:
-En esta etapa, se observó que la información de los valores únicos de cada columna, podemos notar que hay valores que se repiten, ya sea del tipo objeto, entero o flotante, y por ende procedemos a eliminar las columnas que no aportan  información valiosa para nuestro modelo. En la siguiente imagen podemos visualizar las características que  no son de valor único.
+En esta etapa, se observó que la información de los valores únicos de cada columna, podemos notar que hay valores que se repiten, ya sea del tipo objeto, entero o flotante, y por ende procedemos a eliminar las columnas que no aportan  información valiosa para el entrenamiento de nuestro modelo.
 
 ![alt text](image-1.png)
 
 ### 2.3 Extracción de características:
-A continuación, se puede visualizar la matriz de correlación tomando las columnas del tipo de dato numérico.
+A continuación, se puede visualizar la matriz de correlación tomando las columnas del tipo de dato numérico y que serán útiles:
 
 ![alt text](image-3.png)
 
@@ -87,8 +87,6 @@ Tendencia: La línea roja representa la tendencia a largo plazo de la serie temp
 Estacionalidad: La componente estacional, mostrada en color verde, captura patrones que se repiten en intervalos regulares de tiempo. En el gráfico, se observa un patrón estacional claro, lo que sugiere que hay ciclos repetitivos en la calidad del aire. 
 Residuos: La serie de residuos en color negro representa la parte de la serie temporal que no puede ser explicada por la tendencia ni la estacionalidad. Estos residuos parecen estar distribuidos de manera aleatoria alrededor de cero, sin un patrón aparente. Esto es un buen indicador de que la descomposición ha capturado adecuadamente las componentes de tendencia y estacionalidad, dejando sólo el "ruido" o variaciones aleatorias en los residuos.
 A partir del análisis de la descomposición de la serie temporal de calidad del aire, se puede concluir que la serie presenta tanto tendencia como estacionalidad. La tendencia muestra variaciones en la calidad del aire a lo largo del tiempo, lo cual podría estar asociado a cambios estacionales amplios o eventos específicos.
-
-![alt text](image-8.png)
 
 Para mejorar el modelo, se implementaron funciones de retraso, las cuales consisten en cambiar las observaciones de la serie objetivo para que aparezca más tarde en el tiempo. Esta técnica permite capturar la relación de la relación de las observaciones actuales con las anteriores.
 
