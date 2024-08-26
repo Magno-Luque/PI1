@@ -1,7 +1,7 @@
 ![alt text](image.png)
 
 # Tema:
-### Regresión en aprendizaje automático para aredecir la concentración de ozono en el Condado de Baldwin, Alabama, EE.UU., basada en registros de 2022-2023
+### Regresión en aprendizaje automático para predecir la concentración de ozono en el Condado de Baldwin, Alabama, EE.UU., basada en registros de 2022-2023
 
 # **Curso:**
 ### Proyectos de Ingeniería 1
@@ -26,8 +26,7 @@
 
 ## **1. Introducción**
 
-La calidad del aire se ha convertido en un tema de creciente preocupación a nivel global, especialmente en entornos urbanos donde la contaminación puede tener efectos adversos significativos en la salud pública y el medio ambiente. Entre los contaminantes atmosféricos, la concentración de ozono troposférico se destaca como un elemento crítico, ya que niveles elevados de este gas pueden provocar problemas respiratorios y contribuir a enfermedades cardiovasculares. Este informe se centra en el análisis de los niveles de ozono en Fairhope, Alabama, durante los años 2022 y 2023, con el objetivo de predecir su comportamiento en los meses siguientes.
-
+La calidad del aire se ha convertido en un tema de creciente preocupación a nivel global, especialmente en entornos urbanos donde la contaminación puede tener efectos adversos significativos en la salud pública y el medio ambiente. Entre los contaminantes atmosféricos, la concentración de ozono troposférico se destaca como un elemento crítico, ya que niveles elevados de este gas pueden provocar problemas respiratorios y contribuir a enfermedades cardiovasculares. Este informe se centra en el análisis de los niveles de ozono en el Condado de Baldwin, Alabama, durante los años 2022 y 2023, con el objetivo de predecir su comportamiento en los meses siguientes.
 
 Para llevar a cabo esta predicción, se emplea la regresión lineal, una técnica de machine learning que permite modelar la relación entre variables y realizar inferencias sobre datos futuros. La regresión lineal es un método estadístico que busca establecer una relación lineal entre una variable dependiente y una o más variables independientes, facilitando la comprensión de cómo diferentes factores pueden influir en la calidad del aire.
 
@@ -35,7 +34,15 @@ El informe se estructura en varias secciones: comienza con la metodología utili
 
 ## **2. Metodología**
 
-Nu
+Nuestro modelo predictivo se basa en la implementación de técnicas de series temporales, que se incluirá el siguiente enfoque:  Retardos como regresores de un modelo (Alonso Rodriguez, 2021). Es importante señalar que, para llevar a cabo la predicción de un modelo, es necesario que los datos de entrenamiento estén bien preparados, para así aplicar estas técnicas de manera adecuada y capturar patrones en los datos temporales.
+
+Las etapas se basaron en los siguientes:
+
+### 2.1 Obtención de los datos:
+En esta etapa se obtuvieron los DataFrames de la base de datos de la Agencia de Protección Ambiental de Estados Unidos (EPA), específicamente, información de la calidad de aire de los años 2022 y 2023 en el Condado de Baldwin, Alabama, EE. UU. En esta, se registraron datos diarios correspondiente al estado del aire exterior para el Ozono como contaminante. 
+### 2.2 Preparación de los datos:
+En esta etapa, se observó que la información de los valores únicos de cada columna, podemos notar que hay valores que se repiten, ya sea del tipo objeto, entero o flotante, y por ende procedemos a eliminar las columnas que no aportan  información valiosa para nuestro modelo. En la siguiente imagen podemos visualizar las características que  no son de valor único.
+
 
 ## **3. Resultados**
 
