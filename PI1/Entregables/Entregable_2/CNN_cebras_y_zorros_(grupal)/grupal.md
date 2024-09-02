@@ -1,3 +1,24 @@
+<img src="https://github.com/Magno-Luque/PI1/blob/main/PI1/Entregables/Entregable_1/image.png" alt="alt text" width="800">
+
+# Tema:
+### Red_neuronal_con_Keras - CNN
+
+# **Curso:**
+### Proyectos de Ingeniería 1
+
+# **Integrantes:**
+- Llanos Angeles Leily Marlith
+- Luque Mamani Magno Ricardo
+- Mendoz Villar Antony Iván
+- Quispe Baldeon Melissa
+
+# **Docentes:**
+- Umbert Lewis de la Cruz Rodríguez
+- Renzo Jose Chan Rios
+- Marcos Miguel Retamozo Ramos
+- Moisés Stevend Meza Rodríguez
+- Harry Anderson Rivera Tito
+- Pierre Giovanny Ramos Apestegui
 
 # **Introducción**
 
