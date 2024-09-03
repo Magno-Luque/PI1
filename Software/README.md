@@ -1,12 +1,2 @@
-# **BIENVENIDOS**
-
-Aquí se encontrarán los trabajos y entregables del curso de Proyectos de Ingeniería 1.
-
-## **Integrantes:**
-- Llanos Angeles Leily Marlith
-- Luque Mamani Magno Ricardo
-- Mendoz Villar Antony Iván
-- Quispe Baldeon Melissa
-
-
-Presione [aquí](/PI1/README.md) para explorar el contenido.
+<img src="https://github.com/user-attachments/assets/e2691d13-f52d-4ada-b145-361d3b11f141" width="1500" height="200">
+<img src="https://github.com/user-attachments/assets/ddff3284-996a-48f4-9bde-3541237d72f5" width="1500" height="100">
