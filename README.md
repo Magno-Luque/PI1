@@ -1,3 +1,13 @@
+<h1 style="color: #1E90FF;">Soluciones Innovadoras</h1>
+<hr style="border: 1px solid #1E90FF;">
+
+[![Arduino](https://img.shields.io/badge/Arduino-%20-101010?style=for-the-badge&logo=arduino&logoColor=white&labelColor=00979D)](https://www.arduino.cc/)
+[![Python](https://img.shields.io/badge/Python-%20-101010?style=for-the-badge&logo=python&logoColor=white&labelColor=FFD43B)](https://www.python.org/)
+[![IA](https://img.shields.io/badge/IA-%20-101010?style=for-the-badge&logo=robot&logoColor=white&labelColor=6C6E6B)](https://en.wikipedia.org/wiki/Artificial_intelligence)
+[![Keras](https://img.shields.io/badge/Keras-%20-101010?style=for-the-badge&logo=keras&logoColor=white&labelColor=D32F2F)](https://keras.io/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-%20-101010?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=FF6F00)](https://www.tensorflow.org/)
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-%20-101010?style=for-the-badge&logo=openai&logoColor=white&labelColor=10A37F)](https://www.openai.com/chatgpt)
+
 <img src="https://github.com/user-attachments/assets/698b513f-7de0-4639-8613-a79f1cd6cca4" width="1500" height="200">
 
 
