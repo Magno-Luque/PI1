@@ -2,7 +2,7 @@
 ![alt text](image.png)
 
 # Tema:
-### Regresión en aprendizaje automático para predecir la concentración de ozono en el Condado de Baldwin, Alabama, EE.UU., basada en registros de 2022-2023
+### Implementación de TinyML en Arduino para el Reconocimiento de Formas y Números
 
 # **Curso:**
 ### Proyectos de Ingeniería 1
