@@ -1,5 +1,31 @@
 
-## Introducción
+![alt text](image.png)
+
+# Tema:
+### Regresión en aprendizaje automático para predecir la concentración de ozono en el Condado de Baldwin, Alabama, EE.UU., basada en registros de 2022-2023
+
+# **Curso:**
+### Proyectos de Ingeniería 1
+
+# **Integrantes:**
+- Llanos Angeles Leily Marlith
+- Luque Mamani Magno Ricardo
+- Mendoz Villar Antony Iván
+- Quispe Baldeon Melissa
+
+# **Docentes:**
+- Umbert Lewis de la Cruz Rodríguez
+- Renzo Jose Chan Rios
+- Marcos Miguel Retamozo Ramos
+- Moisés Stevend Meza Rodríguez
+- Harry Anderson Rivera Tito
+- Pierre Giovanny Ramos Apestegui
+
+#
+#
+
+
+## **1. Introducción**
 
 El presente informe tiene como objetivo documentar el desarrollo e implementación de un modelo de TinyML en un Arduino Nano 33 BLE Sense. Este trabajo se centra en la interacción entre el dispositivo y LEDs de diferentes colores, que se activan en respuesta a dibujos específicos realizados por el usuario. La idea principal es utilizar el potencial del aprendizaje automático en dispositivos de bajo consumo para realizar inferencias en tiempo real, lo que abre un abanico de posibilidades en aplicaciones de Internet de las Cosas (IoT) y dispositivos inteligentes.
 
@@ -16,16 +42,16 @@ Estas condiciones permiten evaluar la capacidad de inferencia del modelo y su ef
 A lo largo de este informe se detallarán los procedimientos de desarrollo, desde la recolección de datos hasta la implementación del modelo en el hardware, así como los resultados obtenidos y las conclusiones alcanzadas.
 
 
-## Recoleccion de datos
+## **2. Recolección de datos**
 
-## Implementación del modelo
+## **3. Implementación del modelo**
 
-## Resultados
+## **4.  Resultados**
 
-## Conclusiones
+## **5. Conclusiones**
 
 
-## Referencias:
+## **6. Referencias**
 
 [1] P. Warden, TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers, O'Reilly Media, 2019.
 
