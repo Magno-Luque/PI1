@@ -7,6 +7,7 @@
 [![Keras](https://img.shields.io/badge/Keras-%20-101010?style=for-the-badge&logo=keras&logoColor=white&labelColor=D32F2F)](https://keras.io/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-%20-101010?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=FF6F00)](https://www.tensorflow.org/)
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-%20-101010?style=for-the-badge&logo=openai&logoColor=white&labelColor=10A37F)](https://www.openai.com/chatgpt)
+[![UPCH](https://img.shields.io/badge/UPCH-%20-101010?style=for-the-badge&logo=universities&logoColor=white&labelColor=FFD700)](https://www.cayetano.edu.pe/)
 
 <img src="https://github.com/user-attachments/assets/698b513f-7de0-4639-8613-a79f1cd6cca4" width="1500" height="200">
 
