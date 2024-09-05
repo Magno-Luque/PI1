@@ -1,3 +1,5 @@
+[![UPCH](https://img.shields.io/badge/UPCH-%20-101010?style=for-the-badge&logo=universities&logoColor=white&labelColor=FFD700)](https://www.cayetano.edu.pe/)
+
 
 ![upch](https://github.com/user-attachments/assets/2881b386-fc91-4446-bc74-a84f32e6fe85)
 
