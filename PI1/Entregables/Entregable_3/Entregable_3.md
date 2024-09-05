@@ -1,7 +1,11 @@
-[![UPCH](https://img.shields.io/badge/UPCH-%20-101010?style=for-the-badge&logo=universities&logoColor=white&labelColor=FFD700)](https://www.cayetano.edu.pe/)
+<div style="position: relative; height: 100px;">
+    <a href="https://www.cayetano.edu.pe/" style="position: absolute; top: 0; right: 0;">
+        <img src="https://img.shields.io/badge/UPCH-%20-101010?style=for-the-badge&logo=universities&logoColor=white&labelColor=FFD700" alt="UPCH Badge">
+    </a>
+</div>
 
 
-![upch](https://github.com/user-attachments/assets/2881b386-fc91-4446-bc74-a84f32e6fe85)
+
 
 # Tema:
 ### Implementación de TinyML en Arduino para el Reconocimiento de Formas y Números
