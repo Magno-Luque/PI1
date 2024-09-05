@@ -1,5 +1,5 @@
 
-![alt text](image.png)
+![upch](https://github.com/user-attachments/assets/2881b386-fc91-4446-bc74-a84f32e6fe85)
 
 # Tema:
 ### Implementación de TinyML en Arduino para el Reconocimiento de Formas y Números
