@@ -33,6 +33,29 @@ En resumen, aunque la ODS 12 no menciona específicamente el uso de pesticidas, 
 
 
 <img src="https://github.com/user-attachments/assets/8c6d087b-cbd8-4623-8a05-1c83adbff29e" width="1500" height="600">
+
+
+<table>
+    <tr>
+        <td style="border: 0px solid #ddd; padding: 8px;">
+            <img src="https://github.com/user-attachments/assets/4aebcc55-d198-4311-9bdd-97fb41d94625" alt="">
+        </td>
+          <td style="border: 0px solid #ddd; padding: 8px;">
+            <img src="https://github.com/user-attachments/assets/19402336-2ee9-4026-95bc-4707360b95fb" alt="">
+        </td>
+        <td style="border: 0px solid #ddd; padding: 8px;">
+            <img src="https://github.com/user-attachments/assets/c7460b79-923c-4e2f-be13-d420f8c59474" alt="">
+        </td>
+        <td style="border: 0px solid #ddd; padding: 8px;">
+            <img src="https://github.com/user-attachments/assets/b1d5a0a7-dba6-4485-89eb-e8d0f16bc9a8" alt="">
+        </td>
+
+</table> 
+
+
+
+
+
 <img src="https://github.com/user-attachments/assets/a203d076-09ac-40a9-a5ac-42745ef7f066" width="1500" height="100">
 
 | 📂 Categoría    | Descripción |
