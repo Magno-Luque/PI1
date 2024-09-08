@@ -165,6 +165,26 @@ ei_printf("Timing: DSP %d ms, inference %d ms, anomaly %d ms\r\n", result.timing
 Para ver el código completo de la implementación del modelo de TinyML en el Arduino Nano 33 BLE Sense lo puedes consultar [aquí](https://github.com/Magno-Luque/PI1/blob/main/PI1/Entregables/Entregable_3/nano_ble33_sense_accelerometer_continuous.ino).
 ## **4.  Resultados**
 
+Después de implementarlo completamente, procedemos a comprobar de que si funciona correctamente de acuerdo a las indicación y mediciones plas madas en la implementación. Pa lo cual se realiza la pruba teniendo en cuenta las 3 condiciones señaladas anteriormente.
+
+-  Prueba del circulo:
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <video width="300" height="200" autoplay loop muted controls>
+    <source src="https://github.com/user-attachments/assets/aeff0a66-5ac3-4ce4-93b8-64e7d3837ef3" type="video/mp4">
+    Tu navegador no soporta la etiqueta de video.
+  </video>
+  <img src="https://github.com/user-attachments/assets/93709d0f-ec2d-4aec-a30a-7cc7bf810a09" width="300" height="200" alt="Imagen">
+</div>
+
+
+
+
+
+
+
+
+
 ## **5. Discusiones**
 
 ## **6. Conclusiones**
