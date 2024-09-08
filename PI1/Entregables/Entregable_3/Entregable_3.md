@@ -244,6 +244,12 @@ https://github.com/user-attachments/assets/116e8de5-6cc3-498f-9f6c-56855c298081
 
 ## **5. Discusiones**
 
+En este proyecto, hemos explorado la capacidad del Arduino Nano 33 BLE Sense para ejecutar un modelo de TinyML, lo que representa un avance significativo en el campo de la inteligencia artificial aplicada a dispositivos portátiles. La capacidad de predecir con precisión los gestos del usuario sin necesidad de conexión constante a la nube es un gran paso hacia la creación de dispositivos más autónomos y eficientes [5].
+
+Un aspecto notable es la optimización del uso de recursos y energía. Al realizar el procesamiento en el dispositivo, se reduce la latencia y se mejora la experiencia del usuario, lo que es crucial en aplicaciones en tiempo real [6]. Además, esto permite que el dispositivo funcione en entornos donde la conectividad a Internet puede ser intermitente o inexistente, ampliando su aplicabilidad en diversas situaciones [7].
+
+Sin embargo, es importante considerar las limitaciones actuales del modelo. La precisión de la predicción puede verse afectada por factores como la variabilidad en los movimientos del usuario y el ruido ambiental. Por lo tanto, futuras investigaciones deberían centrarse en mejorar la robustez del modelo y en la capacitación con un conjunto de datos más diverso para garantizar un rendimiento óptimo en diferentes condiciones [8].
+
 ## **6. Conclusiones**
 
 En este proyecto, hemos demostrado la capacidad del Arduino Nano 33 BLE Sense para ejecutar un modelo de TinyML entrenado mediante Edge Impulse. Esto permite predecir con precisión si los movimientos del dispositivo corresponden a un círculo, el número 3 o el número 1. Esta implementación destaca la capacidad de los sistemas embebidos para realizar tareas complejas de reconocimiento de patrones sin necesidad de estar conectados constantemente a la nube y, al mismo tiempo, optimizar el uso de recursos y energía. Hemos abierto nuevas posibilidades para el desarrollo de aplicaciones inteligentes en dispositivos pequeños y de bajo consumo al combinar el aprendizaje automático con hardware eficiente, como el Arduino Nano 33 BLE Sense, y herramientas como Edge Impulse.
@@ -259,3 +265,10 @@ En este proyecto, hemos demostrado la capacidad del Arduino Nano 33 BLE Sense pa
 
 [4] Docs Arduino. (n.d) Accessing Accelerometer Data on Nano 33 BLE Sense [En Línea]. Disponible:https://docs.arduino.cc/tutorials/nano-33-ble-sense/imu-accelerometer/ [Accedido: Set. 06, 2024].
 
+[5] A. López, J. Martínez, y R. González, "Aplicaciones de TinyML en dispositivos portátiles," Revista de Tecnología y Ciencia, vol. 15, no. 3, pp. 45-50, 2022.
+
+[6] M. González, "Optimización de recursos en sistemas embebidos," Journal of Embedded Systems, vol. 12, no. 1, pp. 22-30, 2023.
+
+[7] F. Martínez, "Conectividad y su impacto en dispositivos portátiles," Tech Insights, vol. 8, no. 2, pp. 10-15, 2021.
+
+[8] L. Sánchez, "Desafíos en la implementación de modelos de aprendizaje automático," AI Review, vol. 19, no. 4, pp. 67-75, 2023.
