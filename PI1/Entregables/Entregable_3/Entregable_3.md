@@ -49,6 +49,7 @@ A lo largo de este informe se detallarán los procedimientos de desarrollo, desd
 
 
 ## **2. Recolección de datos**
+![image](https://github.com/user-attachments/assets/253828d6-ea4a-472e-b318-6a4f4cb7f7c6)
 
 ## **3. Implementación del modelo**
 
