@@ -256,7 +256,8 @@ En este proyecto, hemos demostrado la capacidad del Arduino Nano 33 BLE Sense pa
 
 ## **7. Referencias**
 
-[1] P. Warden, TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers, O'Reilly Media, 2019. [En Línea]. Disponible: [Accedido: Set. 05, 2024].
+[1] P. Warden, TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers, O'Reilly Media, 2019. [En Línea]. Disponible: https://www.oreilly.com/library/view/tinyml/9781492052031/ [Accedido: Set. 05, 2024].
+
 
 [2] "Magic Wand Project," YouTube, 2023. [En Línea]. Disponible: https://www.youtube.com/shorts/X7xZlTxPKVk [Accedido: Set. 05, 2024].
 
