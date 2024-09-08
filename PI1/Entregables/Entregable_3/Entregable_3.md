@@ -167,7 +167,11 @@ Para ver el código completo de la implementación del modelo de TinyML en el Ar
 
 Después de implementarlo completamente, procedemos a comprobar de que si funciona correctamente de acuerdo a las indicación y mediciones plas madas en la implementación. Pa lo cual se realiza la pruba teniendo en cuenta las 3 condiciones señaladas anteriormente.
 
-## -  Prueba del circulo:
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=000000&size=25&center=true&vCenter=true&width=600&height=100&lines=PRUEBA+DE+LA+FIGURA+CIRCULO">
+  </a>
+</p>
 
 
 
@@ -186,11 +190,13 @@ https://github.com/user-attachments/assets/d2f26939-d96b-4bc8-9734-4d7e1557c1ab
 
 
 
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=000000&size=25&center=true&vCenter=true&width=600&height=100&lines=PRUEBA+DEL+NÚMERO+TRES">
+  </a>
+</p>
 
 
-
-
-## - Prueba del 3:
 
 
 
@@ -207,10 +213,11 @@ https://github.com/user-attachments/assets/b9f35580-654e-4e3d-b8af-5e7997fac476
 </table>
 
 
-
-
-## - Prueba del uno
-
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=000000&size=25&center=true&vCenter=true&width=600&height=100&lines=PRUEBA+DEL+NÚMERO+UNO">
+  </a>
+</p>
 
 
 
@@ -243,9 +250,12 @@ En este proyecto, hemos demostrado la capacidad del Arduino Nano 33 BLE Sense pa
 
 ## **7. Referencias**
 
-[1] P. Warden, TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers, O'Reilly Media, 2019.
+[1] P. Warden, TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers, O'Reilly Media, 2019. [En Línea]. Disponible: [Accedido: Set. 05, 2024].
 
-[2] "Magic Wand Project," YouTube, 2023. [Enlace: https://www.youtube.com/shorts/X7xZlTxPKVk].
+[2] "Magic Wand Project," YouTube, 2023. [En Línea]. Disponible: https://www.youtube.com/shorts/X7xZlTxPKVk [Accedido: Set. 05, 2024].
 
-[3] Edge Impulse. (n.d.). TinyML on Arduino Nano 33 BLE Sense. Recuperado de [Enlace: https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/arduino-nano-33-ble-sense]
+
+[3] Edge Impulse. (n.d.). TinyML on Arduino Nano 33 BLE Sense. Recuperado de [En Línea]. Disponible:https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/arduino-nano-33-ble-sense [Accedido: Set. 05, 2024].
+
+[4] Docs Arduino. (n.d) Accessing Accelerometer Data on Nano 33 BLE Sense [En Línea]. Disponible:https://docs.arduino.cc/tutorials/nano-33-ble-sense/imu-accelerometer/ [Accedido: Set. 06, 2024].
 
