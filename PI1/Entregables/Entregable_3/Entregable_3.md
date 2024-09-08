@@ -167,19 +167,64 @@ Para ver el código completo de la implementación del modelo de TinyML en el Ar
 
 Después de implementarlo completamente, procedemos a comprobar de que si funciona correctamente de acuerdo a las indicación y mediciones plas madas en la implementación. Pa lo cual se realiza la pruba teniendo en cuenta las 3 condiciones señaladas anteriormente.
 
--  Prueba del circulo:
+## -  Prueba del circulo:
 
 
-https://github.com/user-attachments/assets/a7f1f914-b5c4-4fa2-a812-d419ef8f30ae
+
+https://github.com/user-attachments/assets/d2f26939-d96b-4bc8-9734-4d7e1557c1ab
 
 
-- Prueba del 3:
 
-https://github.com/user-attachments/assets/219204e9-ae96-41a8-a6c1-7aceb92eabe8
 
-- Prueba del uno
+<table>
+  <tr>
+    <th width="50%"><img src="https://github.com/user-attachments/assets/89a21925-d64d-422d-8031-74bc8c9f0214" width="340" height="500" alt="circulo_o"></th>
+    <th width="50%" align="justify" >Durante la prueba, el acelerómetro funcionaba a una frecuencia de muestreo de 119 Hz, lo que significa que capturaba 119 muestras de datos por segundo. Una vez finalizada la prueba, el modelo de inferencia determinó que el movimiento registrado tenía una alta probabilidad de corresponder a un patrón circular, con un 72.65% de confianza. Este porcentaje indica que, entre las clases evaluadas, "círculo" es la más probable. Dado que la predicción para "círculo" es significativamente más alta que para las otras clases ("tres" con un 3.51% y "uno" con un 23.83%), se puede concluir que el modelo ha identificado correctamente el movimiento como un círculo.</th>
+  </tr>
+</table>
 
-https://github.com/user-attachments/assets/d721b0e9-d714-43ba-a277-8c4ae9732116
+
+
+
+
+
+
+
+## - Prueba del 3:
+
+
+
+https://github.com/user-attachments/assets/b9f35580-654e-4e3d-b8af-5e7997fac476
+
+
+
+
+<table>
+  <tr>
+    <th width="50%"><img src="https://github.com/user-attachments/assets/5c762379-ece6-4910-b763-3738ba0de97f" width="310" height="500" alt="circulo_o" width="340" height="500" alt="circulo_o"></th>
+    <th width="50%" align="justify" >En esta prueba, el modelo ha clasificado el movimiento como "tres" con una confianza del 41.80%, siendo la clase más probable. Sin embargo, la diferencia con la clase "círculo" (37.11%) es relativamente pequeña, lo que indica que el modelo no está completamente seguro y el movimiento podría estar entre ambas clases. Dado que la probabilidad de "tres" es la más alta, se puede asumir que el modelo ha determinado que el movimiento corresponde a esta clase, aunque con una menor certeza general en comparación con el ejemplo anterior.</th>
+  </tr>
+</table>
+
+
+
+
+## - Prueba del uno
+
+
+
+
+https://github.com/user-attachments/assets/116e8de5-6cc3-498f-9f6c-56855c298081
+
+
+
+
+<table>
+  <tr>
+    <th width="50%"><img src="https://github.com/user-attachments/assets/b78d5fe7-01db-42b2-b975-1dc710a315f4" width="340" height="500" alt="circulo_o"></th>
+    <th width="50%" align="justify" > Una vez finalizada la prueba, el modelo de inferencia determinó que el movimiento registrado tenía una alta probabilidad de corresspondencia al uno, puesto que brindo una certeza del 65.62%. Lo cual indica que, en comparación a las demas clases que han sido evaluadas, el uno es una predicción más probables, por lo cual se concluye de que el modelo a identificado correctamente el movimiento como un uno.</th>
+  </tr>
+</table>
 
 
 
