@@ -162,7 +162,7 @@ Una vez ajustado el código para que lea los datos del acelerómetro y realice l
 ```cpp
 ei_printf("Timing: DSP %d ms, inference %d ms, anomaly %d ms\r\n", result.timing.dsp, result.timing.classification, result.timing.anomaly);
 ```
-Para ver el código completo de la implementación del modelo de TinyML en el Arduino Nano 33 BLE Sense lo puedes consultar [aquí]().
+Para ver el código completo de la implementación del modelo de TinyML en el Arduino Nano 33 BLE Sense lo puedes consultar [aquí](https://github.com/Magno-Luque/PI1/blob/main/PI1/Entregables/Entregable_3/nano_ble33_sense_accelerometer_continuous.ino).
 ## **4.  Resultados**
 
 ## **5. Discusiones**
