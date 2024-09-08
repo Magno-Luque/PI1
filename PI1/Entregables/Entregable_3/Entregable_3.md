@@ -169,13 +169,18 @@ Después de implementarlo completamente, procedemos a comprobar de que si funcio
 
 -  Prueba del circulo:
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <video width="300" height="200" autoplay loop muted controls>
-    <source src="https://github.com/user-attachments/assets/aeff0a66-5ac3-4ce4-93b8-64e7d3837ef3" type="video/mp4">
-    Tu navegador no soporta la etiqueta de video.
-  </video>
-  <img src="https://github.com/user-attachments/assets/93709d0f-ec2d-4aec-a30a-7cc7bf810a09" width="300" height="200" alt="Imagen">
-</div>
+
+https://github.com/user-attachments/assets/a7f1f914-b5c4-4fa2-a812-d419ef8f30ae
+
+
+- Prueba del 3:
+
+https://github.com/user-attachments/assets/219204e9-ae96-41a8-a6c1-7aceb92eabe8
+
+- Prueba del uno
+
+https://github.com/user-attachments/assets/d721b0e9-d714-43ba-a277-8c4ae9732116
+
 
 
 
