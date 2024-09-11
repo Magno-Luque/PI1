@@ -266,10 +266,11 @@ En este proyecto, hemos demostrado la capacidad del Arduino Nano 33 BLE Sense pa
 
 [4] Docs Arduino. (n.d) Accessing Accelerometer Data on Nano 33 BLE Sense [En Línea]. Disponible:https://docs.arduino.cc/tutorials/nano-33-ble-sense/imu-accelerometer/ [Accedido: Set. 06, 2024].
 
-[5] A. López, J. Martínez, y R. González, "Aplicaciones de TinyML en dispositivos portátiles," Revista de Tecnología y Ciencia, vol. 15, no. 3, pp. 45-50, 2022.
+[5] [1] I. R. Mijarra, "Desarrollo de una aplicación TinyML," Universitat Politècnica de Catalunya, 24 Apr. 2022. Disponible:https://core.ac.uk/outputs/512035870/?source=2.
 
-[6] M. González, "Optimización de recursos en sistemas embebidos," Journal of Embedded Systems, vol. 12, no. 1, pp. 22-30, 2023.
+[6] M. A. Tosini, L. Leiva, M. O. Vázquez, O. E. Goñi, y J. M. Toloza, "Técnicas de optimización de soluciones en sistemas embebidos," en WICC 2021, Universidad Nacional de La Plata, 2021. Disponible:https://sedici.unlp.edu.ar/handle/10915/121675.
 
-[7] F. Martínez, "Conectividad y su impacto en dispositivos portátiles," Tech Insights, vol. 8, no. 2, pp. 10-15, 2021.
+[7] J. F. Cadavieco, M. A. Pascual Sevillano, y M. F. M. Ferreira Amador, "Realidad aumentada, una evolución de las aplicaciones de los dispositivos móviles," Pixel-Bit. Revista de Medios y Educación, vol. 41, pp. 197-210, jul. 2012. Disponible:https://www.redalyc.org/articulo.oa?id=36828247015.
 
-[8] L. Sánchez, "Desafíos en la implementación de modelos de aprendizaje automático," AI Review, vol. 19, no. 4, pp. 67-75, 2023.
+
+[8] T. Das Jui and P. Rivas, "Fairness issues, current approaches, and challenges in machine learning models," International Journal of Machine Learning and Cybernetics, vol. 15, pp. 3095–3125, Jan. 2024. Disponible:https://link.springer.com/article/10.1007/s13042-023-02083-2
