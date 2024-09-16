@@ -119,7 +119,7 @@ Monitorear el estado del suelo de cultivo considerando la relación de pH, tempe
 
 ### Circuito esquemático de sistema central:
 
-![imagen](https://github.com/Magno-Luque/PI1/blob/7e4d9ab701cdf62037b4c70486f15999aa90382b/PI1/Entregables/Entregable_4/1.jpeg)
+![imagen](https://github.com/Magno-Luque/PI1/blob/faca8023dcc095628ad769c374b6b04d0d57f225/PI1/Entregables/Entregable_4/1..jpeg)
 
 
 ### Circuito esquemático del sistema receptor con sensores:
