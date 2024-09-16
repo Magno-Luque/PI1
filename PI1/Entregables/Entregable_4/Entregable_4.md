@@ -60,7 +60,7 @@ Monitorear el estado del suelo de cultivo considerando la relación de pH, tempe
 
 | Característica principal | Característica secundaria                                    | Estudio del caso industrial                                                                                   |
 |--------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Geometría                | Dimensiones del dispositivo de control                       | Alto < 50 mm, Ancho < 100 mm, Profundidad < 100 mm                                                             |
+| Geometría                | Dimensiones del dispositivo de control                       | Alto < 50 mm, Ancho < 100 mm, Profundidad < 100 mm  <img src="https://github.com/user-attachments/assets/9f053a10-7f4e-4928-8000-2ce452b90173" width="350"/> |
 |                          | Dimensiones del dispositivo de monitoreo                    | Tubo: Alto < 250 mm; Tapa de ventilación: Alto < 153 mm; Caja de sensores: Alto < 60 mm, Ancho < 80 mm, Profundidad < 100 mm; Tapa de la caja de sensores: Alto < 5 mm, Ancho < 80 mm, Profundidad < 100 mm |
 | Hardware                 | Voltaje nominal| Dispositivo de monitoreo y control: 5V.     |                                                                                                               |
 |                          | Accesibilidad| Relevante para el mantenimiento.             |                                                                                                               |
@@ -127,8 +127,23 @@ Monitorear el estado del suelo de cultivo considerando la relación de pH, tempe
 
 ![imagen](https://github.com/user-attachments/assets/6d5bf3c5-3895-4c01-ba63-a44f842c43b1)
 
+# Modelado 3D
+## Caja Principal
+| Vista isométrica | Vista superior                          | 
+|------------------|-----------------------------------------|
+| <img src="https://github.com/user-attachments/assets/72945c95-7b1f-4669-b94a-031d28df62da" alt="Vista isométrica" width="600"/> | <img src="https://github.com/user-attachments/assets/0448994e-9ce4-41f7-8c40-96e3c1dfcf11" alt="Vista superior" width="600"/> |
 
--- 
+
+Para más información dar click [aquí](https://cad.onshape.com/documents/7a7f94140b8d86c7ea033ef1/w/e999b315eef8267ad934f188/e/b0f45c3e980667b23faed620)
+
+## Dispositivo de monitoreo
+| Vista general | Vista interior                          | 
+|----------|------------------------------------|
+| <img src="https://github.com/user-attachments/assets/312dd8b9-0e39-4cd7-979c-d46a6adfdd8d" alt="Imagen 1" width="350"/> | <img src="https://github.com/user-attachments/assets/58f34f69-8f5f-4141-8994-e9e7646cb6c8" alt="Imagen 2" width="350"/> |
+
+Para más información dar click [aquí](https://cad.onshape.com/documents/abdf9a93153ae0cff690ce01/w/0f25dce1825e5c7b0e513c2e/e/ca312bd6cec96da66ef613ef)
+
+---
 
 # Referencias:
 
