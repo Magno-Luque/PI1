@@ -115,6 +115,23 @@ Monitorear el estado del suelo de cultivo considerando la relación de pH, tempe
 
 
 
+# Diagrama de circuitos electricos:
+
+### Circuito esquemático de sistema central:
+
+![imagen](https://github.com/user-attachments/assets/fabcaf7f-1480-483f-845c-89d1e64eb62c)
+
+
+### Circuito esquemático del sistema receptor con sensores:
+
+
+![imagen](https://github.com/user-attachments/assets/6d5bf3c5-3895-4c01-ba63-a44f842c43b1)
+
+
+-- 
+
+# Referencias:
+
 [1] L. Serna and F. Albán, "Ácido poliláctico (PLA): Propiedades y aplicaciones," Ingeniería y competitividad, 2003. [Online]. Disponible: https://revistaingenieria.univalle.edu.co/index.php/ingenieria_y_competitividad/article/view/2301/3051 [Accedido: 15-Set-2024].
 
 [2] J. A. Armas Guayasamín and G. V. Chávez Gutiérrez, "Diseño y construcción de un prototipo de cortadora láser CNC para el grabado y corte de madera (MDF) de un espesor 4mm para la empresa Servihardmetal (Bachelor's thesis)", 2021. [Online]. Disponible: https://dspace.ups.edu.ec/bitstream/123456789/19961/1/UPS%20-%20TTS328.pdf [Accedido: 15-Set-2024].
