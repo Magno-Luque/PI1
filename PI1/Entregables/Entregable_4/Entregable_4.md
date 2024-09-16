@@ -119,13 +119,13 @@ Monitorear el estado del suelo de cultivo considerando la relación de pH, tempe
 
 ### Circuito esquemático de sistema central:
 
-![imagen](https://github.com/user-attachments/assets/fabcaf7f-1480-483f-845c-89d1e64eb62c)
+![imagen](https://github.com/Magno-Luque/PI1/blob/7e4d9ab701cdf62037b4c70486f15999aa90382b/PI1/Entregables/Entregable_4/1.jpeg)
 
 
 ### Circuito esquemático del sistema receptor con sensores:
 
 
-![imagen](https://github.com/user-attachments/assets/6d5bf3c5-3895-4c01-ba63-a44f842c43b1)
+![imagen](https://github.com/Magno-Luque/PI1/blob/f8923476a7061f4bdd59f7bbe3465a860e6d829c/PI1/Entregables/Entregable_4/2.jpeg)
 
 # Modelado 3D
 ## Caja Principal
