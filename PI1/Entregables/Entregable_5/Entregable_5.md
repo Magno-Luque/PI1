@@ -65,11 +65,11 @@ El Arduino Explore IoT Kit proporciona todas las herramientas necesarias para co
 + Sensor PIR (Infrarrojo Pasivo)
 + Cables plug-and-play para todos los sensores
 
-Asímismo, podemos visualizar a manera gráfica los componentes:
+Asímismo, podemos visualizar a manera gráfica:
 
 <img src="https://github.com/user-attachments/assets/d19db32f-b899-43a6-a5d5-193bdff6f481" alt="Imagen" width="410" height="280"/>  
 
-Estas componentes permiten realizar las siguientes actividades:
+Estos componentes permiten realizar las siguientes actividades:
 
 + Uso de Arduino Cloud y gestión de dispositivos conectados.
 + Recopilación, procesamiento y almacenamiento de datos desde los sensores.
@@ -77,11 +77,19 @@ Estas componentes permiten realizar las siguientes actividades:
 + Desarrollo colaborativo de soluciones tecnológicas para abordar problemas de sostenibilidad mediante el uso de IoT.
 + Aplicación de técnicas de pensamiento de diseño para crear soluciones innovadoras y efectivas.
 
------- ME FALTA PIPIPIP ....
-DESPUÉS LO COMPLETOOOOO
+Ahora bien, como IoT se refire a la comunicación, control y gestión de dispositivos desde cualquier parte del mundo conectados a intenet, esto se hará posible gracias a Arduino Cloud, esta plataforma está dedicada a brindar bocetos elaborados para así poder ser usados [4]. Para ello se siguió los siguiente pasos para hacer efectivo la implementación del IoT:
+
+#### **1. Crear una cuenta:**
+
+#### **2. Conectar un dispositivo (Devices):**
+
+#### **3. Agregar bocetos (Sketches):**
+
+#### **4. Agregar y conectar cosas (Things):**
+
+#### **5. Organizar panel de control (Dashboard):**
 
 Esta metodología facilita la implementación de proyectos IoT al proporcionar una plataforma integral que cubre desde la recolección de datos hasta su análisis y visualización.
-
 
 ## **3. Resultados**
 
@@ -204,3 +212,5 @@ Esta metodología facilita la implementación de proyectos IoT al proporcionar u
 [2] S. Madakam, R. Ramaswamy, and S. Tripathi, "Internet of Things (IoT): A literature review," Journal of Computer and Communications, 2015. [Online]. Disponible: https://www.scirp.org/journal/paperinformation?paperid=56616. [Accedido: 17-Set-2024].
 
 [3] Arduino, "Explore IoT Kit," Arduino, [Online]. Disponible: https://www.arduino.cc/education/explore-iot-kit/. [Accedido: 17-Sep-2024].
+
+[4] Arduino, "Arduino Cloud," Arduino Documentation, [Online]. Disponible: https://docs.arduino.cc/arduino-cloud/. [Accedido: 15-Sep-2024].
