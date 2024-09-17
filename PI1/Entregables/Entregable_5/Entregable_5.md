@@ -81,7 +81,7 @@ Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispos
 
 #### **1. Crear una cuenta:**
 
-<img src="https://github.com/user-attachments/assets/dd1d4c35-0652-40f2-b90f-40204cf0357c" alt="Imagen 1" width="410" height="280"/>  
+<img src="https://github.com/user-attachments/assets/dd1d4c35-0652-40f2-b90f-40204cf0357c" alt="Imagen 1" width="510" height="280"/>  
 
 #### **2. Conectar un dispositivo (Devices):**
 
