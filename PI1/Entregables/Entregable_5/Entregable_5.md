@@ -90,8 +90,10 @@ Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispos
 <img src="https://github.com/user-attachments/assets/7926a301-401d-436f-8b50-73435e1732db" alt="Imagen 1" width="570" height="280"/>
 
 #### **4. Agregar y conectar cosas (Things):**
+<img src="https://github.com/user-attachments/assets/c6206814-b0df-4a00-8fae-8539e05f137a" alt="Imagen 1" width="570" height="280"/>
 
 #### **5. Organizar panel de control (Dashboard):**
+<img src="https://github.com/user-attachments/assets/083b694d-1db6-42c3-90ee-969ff4c31f18" alt="Imagen 1" width="570" height="280"/>
 
 Esta metodología facilita la implementación de proyectos IoT al proporcionar una plataforma integral que cubre desde la recolección de datos hasta su análisis y visualización.
 
