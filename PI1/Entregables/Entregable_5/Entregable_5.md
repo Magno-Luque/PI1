@@ -81,12 +81,13 @@ Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispos
 
 #### **1. Crear una cuenta:**
 <img src="https://github.com/user-attachments/assets/dd1d4c35-0652-40f2-b90f-40204cf0357c" alt="Imagen 1" width="510" height="280"/>  
-<img src="https://github.com/user-attachments/assets/876ef0cc-19b3-43b2-964b-bf37417fd3c4" alt="Imagen 1" width="510" height="280"/>
+<img src="https://github.com/user-attachments/assets/876ef0cc-19b3-43b2-964b-bf37417fd3c4" alt="Imagen 1" width="570" height="280"/>
 
 #### **2. Conectar un dispositivo (Devices):**
-<img src="https://github.com/user-attachments/assets/7f5029a1-a269-4c96-b87e-ef90e3d0bd66" alt="Imagen 1" width="510" height="280"/>
+<img src="https://github.com/user-attachments/assets/7f5029a1-a269-4c96-b87e-ef90e3d0bd66" alt="Imagen 1" width="570" height="280"/>
 
 #### **3. Agregar bocetos (Sketches):**
+<img src="https://github.com/user-attachments/assets/7926a301-401d-436f-8b50-73435e1732db" alt="Imagen 1" width="570" height="280"/>
 
 #### **4. Agregar y conectar cosas (Things):**
 
