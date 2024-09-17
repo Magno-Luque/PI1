@@ -67,7 +67,7 @@ El Arduino Explore IoT Kit proporciona todas las herramientas necesarias para co
 
 Asímismo, podemos visualizar a manera gráfica las componentes:
 
-![image](https://github.com/user-attachments/assets/d19db32f-b899-43a6-a5d5-193bdff6f481)
+<img src="https://github.com/user-attachments/assets/d19db32f-b899-43a6-a5d5-193bdff6f481" alt="Imagen 1" width="410" height="280"/>  
 
 Estas componentes permiten realizar las siguientes actividades:
 
@@ -76,9 +76,6 @@ Estas componentes permiten realizar las siguientes actividades:
 + Visualización y graficación de datos para comprender su significado y relevancia.
 + Desarrollo colaborativo de soluciones tecnológicas para abordar problemas de sostenibilidad mediante el uso de IoT.
 + Aplicación de técnicas de pensamiento de diseño para crear soluciones innovadoras y efectivas.
-
-
-
 
 Esta metodología facilita la implementación de proyectos IoT al proporcionar una plataforma integral que cubre desde la recolección de datos hasta su análisis y visualización.
 
