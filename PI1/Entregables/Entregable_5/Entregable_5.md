@@ -65,7 +65,7 @@ El Arduino Explore IoT Kit proporciona todas las herramientas necesarias para co
 + Sensor PIR (Infrarrojo Pasivo)
 + Cables plug-and-play para todos los sensores
 
-Asímismo, podemos visualizar a manera gráfica las componentes:
+Asímismo, podemos visualizar a manera gráfica los componentes:
 
 <img src="https://github.com/user-attachments/assets/d19db32f-b899-43a6-a5d5-193bdff6f481" alt="Imagen" width="410" height="280"/>  
 
