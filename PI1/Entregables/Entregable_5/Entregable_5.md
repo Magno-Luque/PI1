@@ -44,7 +44,7 @@ Las herramientas que proporciona Arduino Cloud son intuitivas y permiten una imp
 
 ## **2. Metodología**
 
-El Arduino Explore IoT Kit proporciona todas las herramientas necesarias para comenzar a explorar los fundamentos del Internet de las Cosas (IoT) y crear dispositivos conectados a internet de manera sencilla [3]. Este kit incluye los siguientes componentes:
+El Arduino Explore IoT Kit proporciona todas las herramientas necesarias para comenzar a explorar los fundamentos del Internet de las Cosas y crear dispositivos conectados a internet de manera sencilla [3]. Este kit incluye los siguientes componentes:
 
 + Placa Arduino MKR WiFi 1010
 + MKR IoT Carrier, diseñado específicamente para este kit, que incluye:
