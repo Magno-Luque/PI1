@@ -95,7 +95,7 @@ Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispos
 #### **5. Organizar panel de control (Dashboard):**
 <img src="https://github.com/user-attachments/assets/083b694d-1db6-42c3-90ee-969ff4c31f18" alt="Imagen 1" width="570" height="280"/>
 
-Esta metodología facilita la implementación de proyectos IoT al proporcionar una plataforma integral que cubre desde la recolección de datos hasta su análisis y visualización.
+Esta metodología facilita la implementación sencilla de proyectos IoT al proporcionar una plataforma integral que cubre desde la recolección de datos hasta su análisis y visualización.
 
 ## **3. Resultados**
 
