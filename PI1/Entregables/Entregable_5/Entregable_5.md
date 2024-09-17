@@ -77,7 +77,7 @@ Estos componentes permiten realizar las siguientes actividades:
 + Desarrollo colaborativo de soluciones tecnológicas para abordar problemas de sostenibilidad mediante el uso de IoT.
 + Aplicación de técnicas de pensamiento de diseño para crear soluciones innovadoras y efectivas.
 
-Ahora bien, como IoT se refire a la comunicación, control y gestión de dispositivos desde cualquier parte del mundo conectados a intenet, esto se hará posible gracias a Arduino Cloud, esta plataforma está dedicada a brindar bocetos elaborados para así poder ser usados [4]. Para ello se siguió los siguiente pasos para hacer efectivo la implementación del IoT:
+Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispositivos desde cualquier parte del mundo conectados a internet, esto es posible gracias a Arduino Cloud. Esta plataforma está diseñada para proporcionar bocetos predefinidos que pueden ser utilizados fácilmente [4]. A continuación, se detallan los pasos seguidos para implementar el IoT:
 
 #### **1. Crear una cuenta:**
 
