@@ -67,7 +67,7 @@ El Arduino Explore IoT Kit proporciona todas las herramientas necesarias para co
 
 Asímismo, podemos visualizar a manera gráfica las componentes:
 
-
+![image](https://github.com/user-attachments/assets/d19db32f-b899-43a6-a5d5-193bdff6f481)
 
 Estas componentes permiten realizar las siguientes actividades:
 
