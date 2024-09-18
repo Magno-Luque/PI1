@@ -65,7 +65,7 @@ El Arduino Explore IoT Kit proporciona todas las herramientas necesarias para co
 + Sensor PIR (Infrarrojo Pasivo)
 + Cables plug-and-play para todos los sensores
 
-Asímismo, podemos visualizar a manera gráfica:
+Asimismo, podemos visualizar a manera gráfica:
 
 <img src="https://github.com/user-attachments/assets/d19db32f-b899-43a6-a5d5-193bdff6f481" alt="Imagen" width="410" height="280"/>  
 
@@ -73,7 +73,7 @@ Estos componentes permiten realizar las siguientes actividades:
 
 + Uso de Arduino Cloud y gestión de dispositivos conectados.
 + Recopilación, procesamiento y almacenamiento de datos desde los sensores.
-+ Visualización y graficación de datos para comprender su significado y relevancia.
++ Visualización de datos para comprender su significado y relevancia.
 + Desarrollo colaborativo de soluciones tecnológicas para abordar problemas de sostenibilidad mediante el uso de IoT.
 + Aplicación de técnicas de pensamiento de diseño para crear soluciones innovadoras y efectivas.
 
