@@ -85,6 +85,9 @@ Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispos
 
 #### **2. Conectar un dispositivo (Devices):**
 <img src="https://github.com/user-attachments/assets/7f5029a1-a269-4c96-b87e-ef90e3d0bd66" alt="Imagen 1" width="590" height="280"/>
+
+Para que Arduino Cloud pueda reconocer los dispositivos conectados por los puertos de la PC se instaló un programa llamado Arduino Create Agent.
+
 <img src="https://github.com/user-attachments/assets/56994be8-5757-423e-b744-58c50abd6f61" alt="Imagen 1" width="500" height="300"/>
 
 #### **3. Agregar bocetos (Sketches):**
