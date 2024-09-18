@@ -91,8 +91,12 @@ Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispos
 <img src="https://github.com/user-attachments/assets/7926a301-401d-436f-8b50-73435e1732db" alt="Imagen 1" width="590" height="280"/>
 
 #### **4. Agregar y conectar cosas (Things):**
-<img src="https://github.com/user-attachments/assets/c6206814-b0df-4a00-8fae-8539e05f137a" alt="Imagen 1" width="590" height="280"/>
-<img src="https://github.com/user-attachments/assets/bcd16e9b-f7cd-485f-b160-0cdc6e559efd" alt="Imagen 1" width="590" height="280"/>
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c6206814-b0df-4a00-8fae-8539e05f137a" alt="Imagen 1" width="590" height="280"/></td>
+    <td><img src="https://github.com/user-attachments/assets/bcd16e9b-f7cd-485f-b160-0cdc6e559efd" alt="Imagen 1" width="590" height="280"/></td>
+  </tr>
+</table>
 
 #### **5. Organizar panel de control (Dashboard):**
 <img src="https://github.com/user-attachments/assets/083b694d-1db6-42c3-90ee-969ff4c31f18" alt="Imagen 1" width="590" height="280"/>
