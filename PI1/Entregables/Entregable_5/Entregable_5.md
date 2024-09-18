@@ -89,6 +89,7 @@ Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispos
 
 #### **3. Agregar bocetos (Sketches):**
 <img src="https://github.com/user-attachments/assets/7926a301-401d-436f-8b50-73435e1732db" alt="Imagen 1" width="590" height="280"/>
+<img src="https://github.com/user-attachments/assets/16f0b24e-3bbf-4dc3-a116-b8590ab37266" alt="Imagen 1" width="590" height="280"/>
 
 #### **4. Agregar y conectar cosas (Things):**
 <img src="https://github.com/user-attachments/assets/c6206814-b0df-4a00-8fae-8539e05f137a" alt="Imagen 1" width="590" height="280"/>
