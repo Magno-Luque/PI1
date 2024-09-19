@@ -215,6 +215,14 @@ Esta metodología facilita la implementación sencilla de proyectos IoT al propo
 
 ## **4. Discusiones**
 
+El informe detalla sobre la implementación del Arduino Explore IoT Kit, destacando su relevancia en la enseñanza y comprensión de los principios del Internet de las Cosas (IoT). A medida que la tecnología avanza, la interconexión de dispositivos se ha vuelto crucial, no solo en el ámbito industrial, sino también en aplicaciones cotidianas que mejoran la calidad de vida.
+
+El IoT ha transformado la forma en que interactuamos con el mundo físico. La capacidad de conectar dispositivos y recolectar datos en tiempo real permite a las empresas optimizar procesos, mejorar la eficiencia y ofrecer servicios personalizados[5]. En este sentido, el Arduino Explore IoT Kit se posiciona como una herramienta educativa clave, proporcionando a los estudiantes y entusiastas del IoT un entorno práctico para experimentar y aprender.
+
+Una de las principales ventajas del kit es su diseño intuitivo, que permite a los usuarios, incluso aquellos sin experiencia previa, desarrollar proyectos complejos. La integración con Arduino Cloud facilita la gestión de dispositivos y la visualización de datos, lo que resulta en un aprendizaje más dinámico y atractivo[6].
+
+Las actividades realizadas, como el control de LEDs y la visualización de parámetros ambientales, no solo refuerzan los conceptos teóricos del IoT, sino que también promueven el aprendizaje experiencial. La capacidad de ver resultados inmediatos de sus acciones ayuda a los estudiantes a comprender mejor la relación entre hardware y software, así como la importancia de la recolección y análisis de datos.
+
 ## **5. Conclusiones**
 
 
@@ -227,3 +235,7 @@ Esta metodología facilita la implementación sencilla de proyectos IoT al propo
 [3] Arduino, "Explore IoT Kit," Arduino, [Online]. Disponible: https://www.arduino.cc/education/explore-iot-kit/. [Accedido: 17-Sep-2024].
 
 [4] Arduino, "Arduino Cloud," Arduino Documentation, [Online]. Disponible: https://docs.arduino.cc/arduino-cloud/. [Accedido: 15-Sep-2024].
+
+[5]J. J. Saavedra-Neira, M. I. Hernández-Barba, y A. C. Mendoza-De Los Santos, "Aplicaciones y beneficios IoT como alternativa en el gobierno TI: Revisión sistemática de literatura," *Revista Científica de la UCSA*.[online]. DIsponible: http://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2409-87522023000100120 [Accedido: 18-sep-2024]
+
+[6]K. Küçük, C. Bayılmıs, y D. L. Msongaleli, "Designing real-time IoT system course: Prototyping with cloud platforms, laboratory experiments and term project," *International Journal of Electrical Engineering & Education*. [online]. Disponible: https://journals.sagepub.com/doi/abs/10.1177/0020720919862496 [Accedido: 18-sep-2024]
