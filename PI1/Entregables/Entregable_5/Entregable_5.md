@@ -191,21 +191,37 @@ Esta metodología facilita la implementación sencilla de proyectos IoT al propo
     void onRgbColorChange() { /* hacer algo */ }
     void onUpdateDisplayChange() { /* hacer algo */ }
 
+
+
+## DASHBOARDS
+
+![8593ec5f-786a-4bae-ad7d-c9fe7832f8da](https://github.com/user-attachments/assets/7128f128-1bc2-486b-aa6d-254244d07cb1)
+
+De acuerdo con el código y la implementación del dashboard, se realizó lo siguiente: se logró encender el LED de color amarillo. Asimismo, en el MKR IoT Carrier se puede aumentar y reducir la luminosidad de las luces rgb. Al mismo tiempo, es posible verificar el resultado de la temperatura y la humedad en la pantalla lcd, las cuales se midieron con el sensor de humedad. También se pudo determinar la luminosidad total. Por otro lado, en el dashboard se podían actualizar los datos durante cada proceso.
+
 ## SALIDA
 
 ![ea3a57be-5016-47ac-ae72-f34c5ea49a83](https://github.com/user-attachments/assets/f9767886-31eb-469c-965c-7112aa404690)
 
 
 
+https://github.com/user-attachments/assets/b67d6930-652b-4036-8e21-4171d5c7df82
+
+
+
+https://github.com/user-attachments/assets/0f4a6a16-87d3-4e22-ba3a-64057a39c338
+
+
+
+
+https://github.com/user-attachments/assets/b9907ec7-a906-4d42-bc26-373a16c3b4a3
 
 
 
 
 
 
-## DASHBOARDS
 
-![8593ec5f-786a-4bae-ad7d-c9fe7832f8da](https://github.com/user-attachments/assets/7128f128-1bc2-486b-aa6d-254244d07cb1)
 
 
 
