@@ -229,15 +229,32 @@ https://github.com/user-attachments/assets/b9907ec7-a906-4d42-bc26-373a16c3b4a3
 
 ## **4. Discusiones**
 
-El informe detalla sobre la implementación del Arduino Explore IoT Kit, destacando su relevancia en la enseñanza y comprensión de los principios del Internet de las Cosas (IoT). A medida que la tecnología avanza, la interconexión de dispositivos se ha vuelto crucial, no solo en el ámbito industrial, sino también en aplicaciones cotidianas que mejoran la calidad de vida.
+El informe detalla la implementación del Arduino Explore IoT Kit, subrayando su importancia en la enseñanza y comprensión de los principios del Internet de las Cosas (IoT). En un mundo donde la tecnología avanza rápidamente, la interconexión de dispositivos se ha vuelto esencial, no solo en el ámbito industrial, sino también en aplicaciones cotidianas que buscan mejorar la calidad de vida.
 
-El IoT ha transformado la forma en que interactuamos con el mundo físico. La capacidad de conectar dispositivos y recolectar datos en tiempo real permite a las empresas optimizar procesos, mejorar la eficiencia y ofrecer servicios personalizados [5]. En este sentido, el Arduino Explore IoT Kit se posiciona como una herramienta educativa clave, proporcionando a los estudiantes y entusiastas del IoT un entorno práctico para experimentar y aprender.
+El IoT ha revolucionado nuestra interacción con el entorno físico. La capacidad de conectar dispositivos y recolectar datos en tiempo real permite a las empresas optimizar procesos, aumentar la eficiencia y ofrecer servicios personalizados [5]. Una de las principales ventajas del kit es su diseño intuitivo, que capacita a los usuarios, incluso aquellos sin experiencia previa, para desarrollar proyectos complejos con relativa facilidad. La integración con Arduino Cloud no solo facilita la gestión de dispositivos, sino que también permite la visualización de datos de manera clara y accesible, lo que resulta en un aprendizaje más dinámico y atractivo[6].
 
-Una de las principales ventajas del kit es su diseño intuitivo, que permite a los usuarios, incluso aquellos sin experiencia previa, desarrollar proyectos complejos. La integración con Arduino Cloud facilita la gestión de dispositivos y la visualización de datos, lo que resulta en un aprendizaje más dinámico y atractivo [6].
+Las actividades realizadas, como el control de LEDs y la visualización de parámetros ambientales, no solo refuerzan los conceptos teóricos del IoT, sino que también fomentan un aprendizaje experiencial significativo. La posibilidad de observar resultados inmediatos de sus acciones permite comprender de manera más efectiva la relación entre hardware y software, así como la relevancia de la recolección y análisis de datos.
 
-Las actividades realizadas, como el control de LEDs y la visualización de parámetros ambientales, no solo refuerzan los conceptos teóricos del IoT, sino que también promueven el aprendizaje experiencial. La capacidad de ver resultados inmediatos de sus acciones ayuda a los estudiantes a comprender mejor la relación entre hardware y software, así como la importancia de la recolección y análisis de datos.
+#### *Evaluación de Resultados:* 
+
+A pesar de los logros, es importante reconocer las áreas de mejora. Durante las actividades, se presentaron algunos desafíos relacionados con la conectividad y la latencia de los datos, haciendo un análisis de los datos recolectados indica que la mayoría de los sensores proporcionaron lecturas consistentes, lo que respalda la confiabilidad del sistema. Sin embargo, las variaciones en las lecturas de ciertos sensores, como el sensor de luz, plantean preguntas sobre su calibración y precisión. Estos problemas resaltan la necesidad de optimizar la configuración del sistema y considerar el uso de componentes adicionales para mejorar la estabilidad de la red.
+
+Además, la experiencia práctica con el kit puede ser complementada con una mayor profundización en los conceptos teóricos, lo que permitiría no solo aplicar sus conocimientos, sino también entender las implicaciones más amplias del IoT en la sociedad actual.
+
+
+#### *Relación entre Resultados y Objetivos:*
+
+Los resultados obtenidos en este experimento han demostrado en gran medida que los objetivos planteados en la introducción se han cumplido. La conexión exitosa del Arduino MKR IoT Carrier a la plataforma IoT y su capacidad para interactuar con diversos sensores y actuadores confirmaron la viabilidad del sistema propuesto. Por ejemplo, los datos de temperatura y humedad recolectados fueron consistentes con las expectativas iniciales, lo que sugiere que los sensores funcionan correctamente y son precisos en sus lecturas. Sin embargo, se identificaron algunas discrepancias en la precisión de los datos de ciertos sensores, lo que podría indicar áreas de mejora.
+
+#### *Comportamiento de Dispositivos y Sensores:* 
+
+El comportamiento de los dispositivos y sensores conectados a la plataforma IoT fue en general satisfactorio. Los relés y LEDs respondieron adecuadamente a los comandos enviados desde la nube, reflejando los estados deseados en tiempo real. No obstante, se observaron algunos retrasos en la respuesta, especialmente durante períodos de alta carga de red. Este comportamiento sugiere que, aunque el sistema es funcional, la latencia puede ser un factor limitante que afecte su rendimiento en aplicaciones críticas que requieren respuestas inmediatas.
+
+
+En resumen, el experimento ha validado la efectividad del sistema IoT basado en el Arduino MKR IoT Carrier en gran medida, aunque se han identificado áreas para la mejora y optimización. La discusión de los resultados en relación con los objetivos iniciales y el comportamiento de los dispositivos proporciona una base sólida para futuras investigaciones y desarrollos en este campo.
 
 ## **5. Conclusiones**
+
 En el presente laboratorio, se logró implementar con éxito un sistema de Internet de las Cosas (IoT) utilizando el Arduino Explore IoT Kit junto con la plataforma Arduino Cloud. A pesar de las dificultades iniciales que se presentaron con la conexión del dispositivo a la nube, el proceso resultó efectivo, permitiendo el monitoreo y control en tiempo real de diversos parámetros ambientales.
 
 Los resultados obtenidos mostraron que la temperatura del entorno aumentaba ligeramente al acercar una fuente de luz al dispositivo. Asimismo, se registró un cambio notable en la temperatura desde el inicio hasta el final del experimento, lo cual se atribuyó a la activación de las luces RGB del MKR IoT Carrier, evidenciando así la sensibilidad del sensor de temperatura integrado. En cuanto a la humedad, se observó variación al introducir el dispositivo en diferentes sustratos, lo que confirma la funcionalidad del sensor de humedad, especialmente en condiciones de tierra húmeda.
