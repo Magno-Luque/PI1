@@ -80,8 +80,10 @@ Estos componentes permiten realizar las siguientes actividades:
 Ahora bien, como IoT se refiere a la comunicación, control y gestión de dispositivos desde cualquier parte del mundo conectados a internet, esto es posible gracias a Arduino Cloud. Esta plataforma está diseñada para proporcionar bocetos predefinidos que pueden ser utilizados fácilmente [4]. A continuación, se detallan los pasos seguidos para implementar el IoT:
 
 #### **1. Crear una cuenta:**
-<img src="https://github.com/user-attachments/assets/dd1d4c35-0652-40f2-b90f-40204cf0357c" alt="Imagen 1" width="520" height="290"/>
-<img src="https://github.com/user-attachments/assets/876ef0cc-19b3-43b2-964b-bf37417fd3c4" alt="Imagen 1" width="590" height="280"/>
+| Página de login | Página de Inicio |
+|----------|----------|
+| <img src="https://github.com/user-attachments/assets/dd1d4c35-0652-40f2-b90f-40204cf0357c" alt="Imagen 1" width="850"/> | <img src="https://github.com/user-attachments/assets/876ef0cc-19b3-43b2-964b-bf37417fd3c4" alt="Imagen 2" width="850"/> |
+
 
 #### **2. Conectar un dispositivo (Devices):**
 <img src="https://github.com/user-attachments/assets/7f5029a1-a269-4c96-b87e-ef90e3d0bd66" alt="Imagen 1" width="590" height="280"/>
@@ -91,16 +93,19 @@ Para que Arduino Cloud pueda reconocer los dispositivos conectados por los puert
 <img src="https://github.com/user-attachments/assets/bbfddf0f-e869-440f-b2f2-1214e91efe3c" alt="Imagen 1" width="450" height="300"/>
 
 #### **3. Agregar bocetos (Sketches):**
-<img src="https://github.com/user-attachments/assets/7926a301-401d-436f-8b50-73435e1732db" alt="Imagen 1" width="590" height="280"/>
-<img src="https://github.com/user-attachments/assets/16f0b24e-3bbf-4dc3-a116-b8590ab37266" alt="Imagen 1" width="590" height="280"/>
+| Página de login | Página de Inicio |
+|----------|----------|
+| <img src="https://github.com/user-attachments/assets/7926a301-401d-436f-8b50-73435e1732db" alt="Imagen 1" width="590" height="280"/>| <img src="https://github.com/user-attachments/assets/16f0b24e-3bbf-4dc3-a116-b8590ab37266" alt="Imagen 1" width="590" height="280"/>|
 
 #### **4. Agregar y conectar cosas (Things):**
-<img src="https://github.com/user-attachments/assets/c6206814-b0df-4a00-8fae-8539e05f137a" alt="Imagen 1" width="590" height="280"/>
-<img src="https://github.com/user-attachments/assets/bcd16e9b-f7cd-485f-b160-0cdc6e559efd" alt="Imagen 1" width="590" height="280"/>
+| Página de login | Página de Inicio |
+|----------|----------|
+| <img src="https://github.com/user-attachments/assets/c6206814-b0df-4a00-8fae-8539e05f137a" alt="Imagen 1" width="590" height="280"/>| <img src="https://github.com/user-attachments/assets/bcd16e9b-f7cd-485f-b160-0cdc6e559efd" alt="Imagen 1" width="590" height="280"/>|
 
 #### **5. Organizar panel de control (Dashboard):**
-<img src="https://github.com/user-attachments/assets/083b694d-1db6-42c3-90ee-969ff4c31f18" alt="Imagen 1" width="590" height="280"/>
-<img src="https://github.com/user-attachments/assets/49c98680-bfea-4b07-81bb-6c7e7c3d569a" alt="Imagen 1" width="590" height="280"/>
+| Página de login | Página de Inicio |
+|----------|----------|
+| <img src="https://github.com/user-attachments/assets/083b694d-1db6-42c3-90ee-969ff4c31f18" alt="Imagen 1" width="590" height="280"/>| <img src="https://github.com/user-attachments/assets/49c98680-bfea-4b07-81bb-6c7e7c3d569a" alt="Imagen 1" width="590" height="280"/>|
 
 Esta metodología facilita la implementación sencilla de proyectos IoT al proporcionar una plataforma integral que cubre desde la recolección de datos hasta su análisis y visualización.
 
@@ -123,107 +128,100 @@ Esta metodología facilita la implementación sencilla de proyectos IoT al propo
 <img src="https://github.com/user-attachments/assets/e91a914d-fae6-423f-8bf0-d58b0f970539" alt="Imagen 2" width="410" height="280"/>
 
 ## CÓDIGO
+```cpp
+#include "arduino_secrets.h"  // Incluye credenciales y configuraciones del IoT
+#include "thingProperties.h"  // Propiedades del Arduino IoT Cloud
+#include <Arduino_MKRIoTCarrier.h>  // Librería para controlar el MKR IoT Carrier
 
-    #include "arduino_secrets.h"
-    #include "thingProperties.h"
-    #include <Arduino_MKRIoTCarrier.h>
-    
-    MKRIoTCarrier carrier;
-    int moistPin = A5;
-    int moistValue; // Se declara la variable moistValue
-    String relayState1 = "";
-    String relayState2 = "";
-    
-    void setup() {
-      Serial.begin(9600);
-      initProperties();
-      ArduinoCloud.begin(ArduinoIoTPreferredConnection);
-      CARRIER_CASE = true;
-      carrier.begin();
-      
-      // Esperar la conexión al IoT Cloud
-      while (ArduinoCloud.connected() != 1) {
-        ArduinoCloud.update();
-        carrier.display.setTextSize(3);
-        carrier.display.setCursor(20, 70);
-        carrier.display.println("Waiting For");
-        carrier.display.setCursor(5, 110);
-        carrier.display.println("Connection...");
-        delay(500);
-      }
-    }
-    
-    void loop() {
-      ArduinoCloud.update();
-      
-      // Control de los relés
-      if (relay_1 == true) {
-        carrier.Relay1.open();
-        relayState1 = "ON";
-      } else {
-        carrier.Relay1.close();
-        relayState1 = "OFF";
-      }
-    
-      if (relay_2 == true) {
-        carrier.Relay2.open();
-        relayState2 = "ON";
-      } else {
-        carrier.Relay2.close();
-        relayState2 = "OFF";
-      }
-    
-      // Lectura de sensores
-      if (carrier.Light.colorAvailable()) {
-        int none;
-        carrier.Light.readColor(none, none, none, light);
-      }
-    
-      temperature = carrier.Env.readTemperature();
-      humidity = carrier.Env.readHumidity();
-      int rawMoistValue = analogRead(moistPin);
-      moistValue = map(rawMoistValue, 0, 1023, 100, 0);
-    }
-    
-    // Funciones para los cambios en las propiedades
-    void onRelay1Change() { /* hacer algo */ }
-    void onRelay2Change() { /* hacer algo */ }
-    void onRgbColorChange() { /* hacer algo */ }
-    void onUpdateDisplayChange() { /* hacer algo */ }
+MKRIoTCarrier carrier;  // Objeto para interactuar con el carrier
+int moistPin = A5;  // Pin para el sensor de humedad
+int moistValue;  // Almacena el valor del sensor de humedad
+String relayState1 = "";  // Estado del relé 1
+String relayState2 = "";  // Estado del relé 2
 
+void setup() {
+  Serial.begin(9600);  // Inicializa la comunicación serial
+  initProperties();  // Inicializa las propiedades del IoT Cloud
+  ArduinoCloud.begin(ArduinoIoTPreferredConnection);  // Conexión al IoT Cloud
+  CARRIER_CASE = true;  // Indica que se usa con la carcasa del carrier
+  carrier.begin();  // Inicializa el carrier
+
+  // Espera hasta que el dispositivo se conecte al IoT Cloud
+  while (ArduinoCloud.connected() != 1) {
+    ArduinoCloud.update();  // Actualiza el estado del IoT Cloud
+    // Muestra en pantalla que se está esperando la conexión
+    carrier.display.setTextSize(3);
+    carrier.display.setCursor(20, 70);
+    carrier.display.println("Waiting For");
+    carrier.display.setCursor(5, 110);
+    carrier.display.println("Connection...");
+    delay(500);  // Pausa breve antes de volver a intentar
+  }
+}
+
+void loop() {
+  ArduinoCloud.update();  // Actualiza las variables y comunicación con el IoT Cloud
+
+  // Control de los relés basados en el estado recibido del IoT Cloud
+  if (relay_1 == true) {
+    carrier.Relay1.open();  // Activa el relé 1
+    relayState1 = "ON";  // Actualiza el estado del relé 1
+  } else {
+    carrier.Relay1.close();  // Desactiva el relé 1
+    relayState1 = "OFF";  // Actualiza el estado del relé 1
+  }
+
+  if (relay_2 == true) {
+    carrier.Relay2.open();  // Activa el relé 2
+    relayState2 = "ON";  // Actualiza el estado del relé 2
+  } else {
+    carrier.Relay2.close();  // Desactiva el relé 2
+    relayState2 = "OFF";  // Actualiza el estado del relé 2
+  }
+
+  // Lectura de sensores del carrier
+  if (carrier.Light.colorAvailable()) {
+    int none;
+    carrier.Light.readColor(none, none, none, light);  // Lee el sensor de luz
+  }
+
+  temperature = carrier.Env.readTemperature();  // Lee la temperatura
+  humidity = carrier.Env.readHumidity();  // Lee la humedad
+  int rawMoistValue = analogRead(moistPin);  // Lee el valor bruto del sensor de humedad
+  moistValue = map(rawMoistValue, 0, 1023, 100, 0);  // Mapea el valor a un rango de 0 a 100
+}
+
+// Funciones para reaccionar a los cambios de estado en el IoT Cloud (vacías por ahora)
+void onRelay1Change() { /* hacer algo cuando cambie el relé 1 */ }
+void onRelay2Change() { /* hacer algo cuando cambie el relé 2 */ }
+void onRgbColorChange() { /* hacer algo cuando cambie el color RGB */ }
+void onUpdateDisplayChange() { /* hacer algo cuando cambie la pantalla */ }
+
+```
 
 
 ## DASHBOARDS
 
 ![8593ec5f-786a-4bae-ad7d-c9fe7832f8da](https://github.com/user-attachments/assets/7128f128-1bc2-486b-aa6d-254244d07cb1)
 
-De acuerdo con el código y la implementación del dashboard, se realizó lo siguiente: se logró encender el LED de color amarillo. Asimismo, en el MKR IoT Carrier se puede aumentar y reducir la luminosidad de las luces rgb. Al mismo tiempo, es posible verificar el resultado de la temperatura y la humedad en la pantalla lcd, las cuales se midieron con el sensor de humedad. También se pudo determinar la luminosidad total. Por otro lado, en el dashboard se podían actualizar los datos durante cada proceso.
+De acuerdo con el código y la implementación del dashboard, se realizó lo siguiente: se logró encender el LED de color amarillo. Asimismo, en el MKR IoT Carrier se puede aumentar y reducir la luminosidad de las luces rgb. Al mismo tiempo, es posible verificar el resultado de la temperatura y la humedad en la pantalla lcd, las cuales se midieron con el sensor de humedad. También se pudo determinar la luminosidad total. Por otro lado, en el dashboard se podían actualizar los datos durante cada proceso debido a qué habíamos configurado todo este sistema ARUINO CLOUD y de esta manera ver en tiempo real data que podíamos controlarlo desde la laptop.
 
 ## SALIDA
 
+### PRIMERA PARTE
 ![ea3a57be-5016-47ac-ae72-f34c5ea49a83](https://github.com/user-attachments/assets/f9767886-31eb-469c-965c-7112aa404690)
 
 
-
+### SEGUNDA PARTE
 https://github.com/user-attachments/assets/b67d6930-652b-4036-8e21-4171d5c7df82
 
 
-
+### TERCERA PARTE
 https://github.com/user-attachments/assets/0f4a6a16-87d3-4e22-ba3a-64057a39c338
 
 
-
-
+## CUARTA PARTE
 https://github.com/user-attachments/assets/b9907ec7-a906-4d42-bc26-373a16c3b4a3
-
-
-
-
-
-
-
-
-
 
 
 
@@ -240,6 +238,14 @@ Una de las principales ventajas del kit es su diseño intuitivo, que permite a l
 Las actividades realizadas, como el control de LEDs y la visualización de parámetros ambientales, no solo refuerzan los conceptos teóricos del IoT, sino que también promueven el aprendizaje experiencial. La capacidad de ver resultados inmediatos de sus acciones ayuda a los estudiantes a comprender mejor la relación entre hardware y software, así como la importancia de la recolección y análisis de datos.
 
 ## **5. Conclusiones**
+En el presente laboratorio, se logró implementar con éxito un sistema de Internet de las Cosas (IoT) utilizando el Arduino Explore IoT Kit junto con la plataforma Arduino Cloud. A pesar de las dificultades iniciales que se presentaron con la conexión del dispositivo a la nube, el proceso resultó efectivo, permitiendo el monitoreo y control en tiempo real de diversos parámetros ambientales.
+
+Los resultados obtenidos mostraron que la temperatura del entorno aumentaba ligeramente al acercar una fuente de luz al dispositivo. Asimismo, se registró un cambio notable en la temperatura desde el inicio hasta el final del experimento, lo cual se atribuyó a la activación de las luces RGB del MKR IoT Carrier, evidenciando así la sensibilidad del sensor de temperatura integrado. En cuanto a la humedad, se observó variación al introducir el dispositivo en diferentes sustratos, lo que confirma la funcionalidad del sensor de humedad, especialmente en condiciones de tierra húmeda.
+
+Adicionalmente, la posibilidad de encender y apagar los LEDs desde el dashboard de Arduino Cloud, así como la opción de hacer clic en un botón tipo switch para actualizar los datos en pantalla, facilitaron la manipulación de los dispositivos conectados, proporcionando una experiencia interactiva y práctica. La visualización en tiempo real de los datos recolectados no solo enriqueció nuestra comprensión de los fenómenos observados, sino que también subrayó la efectividad de la plataforma en la gestión de dispositivos IoT.
+
+En resumen, este laboratorio no solo cumplió con los objetivos planteados, sino que también brindó una experiencia valiosa en la implementación de soluciones tecnológicas a través del IoT, destacando su potencial para la automatización y el control de procesos en diversos contextos.
+
 
 
 ## **6. Referencias**
