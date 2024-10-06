@@ -141,9 +141,50 @@ Adicionalmente, el análisis del esfuerzo de Cauchy en la dirección SIZZ indica
 
 El análisis de desplazamiento en la dirección Z proporciona información valiosa sobre la estabilidad del modelo. La progresión del desplazamiento hacia la punta, sin alcanzar valores excesivos, confirma que el objeto mantiene su integridad estructural. La combinación de materiales seleccionados no solo asegura un comportamiento adecuado bajo carga, sino que también es respetuosa con el medio ambiente, alineándose con las tendencias actuales en diseño sostenible.
 
+### **4.1. Limitaciones**
+Aunque el análisis realizado proporciona una comprensión sólida del comportamiento estructural del objeto, existen ciertas limitaciones que deben considerarse:
+
+Al principio, intentamos realizar una simulación de un modelo más completo, como se muestra en las siguientes imagenes:
+
+| Evidencia 1 | Evidencia 2 |
+|---|---|
+| <img src="https://github.com/user-attachments/assets/f9b106fc-e709-4381-81ff-2127c0b2a7e6" width="900"/> | <img src="https://github.com/user-attachments/assets/3a35ae49-f5b6-4aa7-91dc-35a9dad82340" width="900"/> |
+| Evidencia 3 | Evidencia 4 |
+| <img src="https://github.com/user-attachments/assets/e9440de7-46e3-4c9a-8c1d-59f643288f55" width="900"/> | <img src="https://github.com/user-attachments/assets/2d4b2284-bdc6-4275-9b8a-9f363402d350" width="900"/> |
+| Evidencia 5 | Evidencia 6 |
+| <img src="https://github.com/user-attachments/assets/7f506a71-b6a1-4e2f-9ea8-adc696d23e33" width="900"/> | <img src="https://github.com/user-attachments/assets/31bb5b65-f799-4005-939f-6880d7d07fba" width="900"/> |
+| Evidencia 7 | Evidencia 8 |
+| <img src="https://github.com/user-attachments/assets/3df951c1-1ef0-461b-b540-42757999fe5a" width="900"/> | <img src="https://github.com/user-attachments/assets/5f39fede-e283-44f0-8b0b-05b3b89730e1" width="900"/> |
+| Evidencia 9 | Evidencia 10 |
+| <img src="https://github.com/user-attachments/assets/fae505c2-fe24-4bbf-95fb-ca06f3e60d05" width="900"/> | <img src="https://github.com/user-attachments/assets/da8a078b-536c-4870-a4ae-74e0767f0cd9" width="900"/> |
+| Evidencia 11 | Evidencia 12 |
+| <img src="https://github.com/user-attachments/assets/a92124bb-b6dd-4fde-8c1a-ab9d726316d9" width="900"/> | <img src="https://github.com/user-attachments/assets/b45b05ee-4b3a-465e-b5b0-8a08f8884e76" width="900"/> |
+
+
+
+![](https://github.com/user-attachments/assets/72c830f4-f09d-4da6-a199-d9ed6de07908)
+
+En esta última imagen, se puede observar la cancelación de la simulación al 0%. El error que aparece en rojo indica que la máquina se quedó sin memoria durante la ejecución, lo que provocó una interrupción en el proceso. Aunque la simulación fue preparada correctamente y la malla se generó sin problemas (con 259,791 nodos), la instancia utilizada no pudo manejar el cálculo necesario para el modelo más complejo. Esto limitó nuestra capacidad de realizar el análisis inicial en una simulación más detallada, lo que nos obligó a optar por una versión simplificada del modelo.
+
+![](https://github.com/user-attachments/assets/7448fefb-cf97-46ed-8b77-a176601ab5ea)
+
+El problema mencionado anteriormente no solo ocurrió una vez, sino que se repitió en varias ocasiones. Aquí, el error específico señalado es que la matriz de la solución no se puede factorizar. Este tipo de error generalmente se asocia con un movimiento rígido no restringido, grados de libertad sobreconstriñidos o una mala calidad de malla. A pesar de realizar ajustes en los grados de libertad y en la calidad de la malla, el error persistió, lo que nos llevó a realizar cambios en el diseño del modelo y simplificar las condiciones de frontera para poder avanzar en el análisis.
+
+![](https://github.com/user-attachments/assets/6a080448-f631-4f0b-a50e-a5c7214008b8)
+
+Finalmente, al reducir el modelo a solo dos piezas, logramos realizar la simulación, pero nos encontramos con una limitación importante: el uso restringido de herramientas avanzadas de análisis, como el "inspection point". Esta herramienta es crucial para obtener valores detallados de puntos específicos en el modelo, como los valores de MPa en áreas críticas. Al no poder utilizar esta funcionalidad, la precisión de los resultados y la profundidad del análisis se vieron afectadas. En consecuencia, no fue posible discutir con mayor precisión los datos importantes, como las tensiones localizadas o los puntos de deformación máxima.
+
+Estas limitaciones no solo afectaron el desarrollo del análisis, sino que también influyeron en la precisión y el alcance de las conclusiones. Aunque los resultados obtenidos son válidos, una mayor capacidad computacional y la posibilidad de utilizar herramientas avanzadas de inspección habrían permitido una evaluación más detallada y precisa del comportamiento estructural del objeto.
+
 ## **5. Conclusión**
 
-En conclusión, el análisis estructural realizado sobre el objeto diseñado para la inserción en el suelo ha demostrado que los materiales seleccionados, magnesio y poliamida (PA), cumplen con los requerimientos de resistencia y durabilidad necesarios para su aplicación. La simulación ha evidenciado que el magnesio, a pesar de su susceptibilidad a la corrosión, es adecuado para la punta, mientras que la poliamida ofrece un excelente rendimiento en el cuerpo del objeto, contribuyendo a la resistencia al desgaste y flexibilidad. Los resultados de las simulaciones de Von Mises, esfuerzo de Cauchy y desplazamiento confirman que el diseño no solo es funcional bajo las condiciones aplicadas, sino que también es capaz de adaptarse a las exigencias del entorno agrícola, haciendo de este un prototipo viable para su uso en el campo. Esta investigación no solo valida la elección de materiales, sino que también proporciona una base sólida para futuros desarrollos y optimizaciones en el diseño de herramientas para la agricultura.
+El análisis estructural realizado utilizando SimScale ha permitido validar el diseño de un objeto destinado a ser insertado en el suelo bajo cargas axiales. Los materiales seleccionados, magnesio para la punta y poliamida (PA) para el cuerpo, han demostrado ser adecuados para soportar las tensiones y deformaciones generadas durante la simulación. El magnesio, gracias a su alta resistencia a la tracción y su ligereza, soporta las cargas de inserción sin deformación permanente, mientras que la poliamida ofrece flexibilidad y resistencia al desgaste, distribuyendo de manera eficiente las tensiones a lo largo del cuerpo del objeto.
+
+El análisis de tensiones de Von Mises y el esfuerzo de Cauchy indicaron que ambos materiales cumplen con los límites de elasticidad y no presentan concentraciones críticas de tensiones que pudieran comprometer la integridad estructural. Asimismo, el análisis de desplazamientos mostró que la estabilidad del diseño se mantiene dentro de los límites esperados, con deformaciones controladas que no afectan su funcionalidad.
+
+Sin embargo, las limitaciones encontradas en el proceso, como la imposibilidad de ejecutar la simulación con un modelo más complejo debido a restricciones computacionales y el uso limitado de herramientas avanzadas como el "inspection point", redujeron la precisión en algunos aspectos del análisis. Estas limitaciones destacan la necesidad de contar con mayor capacidad computacional y acceso a herramientas más robustas para futuros estudios y mejoras en el diseño.
+
+En resumen, el diseño propuesto es viable y adecuado para su uso en aplicaciones agrícolas, logrando cumplir con los requisitos de resistencia y durabilidad bajo las condiciones simuladas. No obstante, sería recomendable continuar con investigaciones adicionales que incluyan pruebas experimentales y simulaciones más detalladas para optimizar aún más el diseño y obtener resultados más precisos.
 
 ## **6. Referencias**
 
