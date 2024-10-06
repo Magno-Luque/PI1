@@ -146,6 +146,9 @@ Aunque el análisis realizado proporciona una comprensión sólida del comportam
 
 Al principio, intentamos realizar una simulación de un modelo más completo, como se muestra en las siguientes imagenes:
 
+<details>
+  <summary>Presionar aquí para ver las imágenes</summary>
+    
 | Evidencia 1 | Evidencia 2 |
 |---|---|
 | <img src="https://github.com/user-attachments/assets/f9b106fc-e709-4381-81ff-2127c0b2a7e6" width="900"/> | <img src="https://github.com/user-attachments/assets/3a35ae49-f5b6-4aa7-91dc-35a9dad82340" width="900"/> |
@@ -160,9 +163,11 @@ Al principio, intentamos realizar una simulación de un modelo más completo, co
 | Evidencia 11 | Evidencia 12 |
 | <img src="https://github.com/user-attachments/assets/a92124bb-b6dd-4fde-8c1a-ab9d726316d9" width="900"/> | <img src="https://github.com/user-attachments/assets/b45b05ee-4b3a-465e-b5b0-8a08f8884e76" width="900"/> |
 
+</details>
 
 
-![](https://github.com/user-attachments/assets/72c830f4-f09d-4da6-a199-d9ed6de07908)
+<img src="https://github.com/user-attachments/assets/72c830f4-f09d-4da6-a199-d9ed6de07908" width="850"/>
+
 
 En esta última imagen, se puede observar la cancelación de la simulación al 0%. El error que aparece en rojo indica que la máquina se quedó sin memoria durante la ejecución, lo que provocó una interrupción en el proceso. Aunque la simulación fue preparada correctamente y la malla se generó sin problemas (con 259,791 nodos), la instancia utilizada no pudo manejar el cálculo necesario para el modelo más complejo. Esto limitó nuestra capacidad de realizar el análisis inicial en una simulación más detallada, lo que nos obligó a optar por una versión simplificada del modelo.
 
