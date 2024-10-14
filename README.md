@@ -5,12 +5,11 @@
 [![Arduino](https://img.shields.io/badge/Arduino-%20-101010?style=for-the-badge&logo=arduino&logoColor=white&labelColor=00979D)](https://www.arduino.cc/)
 [![Python](https://img.shields.io/badge/Python-%20-101010?style=for-the-badge&logo=python&logoColor=white&labelColor=FFD43B)](https://www.python.org/)
 [![IA](https://img.shields.io/badge/IA-%20-101010?style=for-the-badge&logo=robot&logoColor=white&labelColor=6C6E6B)](https://en.wikipedia.org/wiki/Artificial_intelligence)
-[![Keras](https://img.shields.io/badge/Keras-%20-101010?style=for-the-badge&logo=keras&logoColor=white&labelColor=D32F2F)](https://keras.io/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-%20-101010?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=FF6F00)](https://www.tensorflow.org/)
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-%20-101010?style=for-the-badge&logo=openai&logoColor=white&labelColor=10A37F)](https://www.openai.com/chatgpt)
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+  <a href="https://cayetano.edu.pe/">
     <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=F1C40F&size=25&center=true&vCenter=true&width=600&height=100&lines=UNIVERSIDAD+PERUANA+CAYETANO+HEREDIA">
   </a>
 </p>
