@@ -57,7 +57,8 @@ https://github.com/user-attachments/assets/2c9eb54c-4a2c-4b5a-b7c9-a453991b7a73
 
 
 
-## (Implementación de aplicación)[https://www.figma.com/proto/eOLt1KUMvcv1iK8M9l8qup/APP-M%C3%93VIL---V3?node-id=0-1&t=6IyEvDJKI5QYY9zb-1]
+## [Implementación de aplicación](https://www.figma.com/proto/eOLt1KUMvcv1iK8M9l8qup/APP-M%C3%93VIL---V3?node-id=0-1&t=6IyEvDJKI5QYY9zb-1)
+
 
 | V1                                                                                     | V2                                                                                     | V3                                                                                     |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
