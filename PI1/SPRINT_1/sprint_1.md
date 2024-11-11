@@ -45,12 +45,6 @@
 </div>
 
 
-## Diagrama de funcionamiento de sensores
-<div align="center">
-  <img src="" width="700px">
-</div>
-
-
 ## Implementación de software
 
 | Imagen 1                                                                                     | Imagen 2                                                                                     | Imagen 3                                                                                     |
