@@ -44,6 +44,13 @@
   <img src="https://github.com/user-attachments/assets/29dcd273-25f7-41d9-b4f4-2ca4e75fcf2b" width="700px">
 </div>
 
+
+## Diagrama de funcionamiento de sensores
+<div align="center">
+  <img src="" width="700px">
+</div>
+
+
 ## Implementación de software
 
 | Imagen 1                                                                                     | Imagen 2                                                                                     | Imagen 3                                                                                     |
