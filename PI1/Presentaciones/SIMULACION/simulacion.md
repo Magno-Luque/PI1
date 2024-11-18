@@ -21,3 +21,11 @@
 # Diagrama de flujo de la aplicación
 
 ![app](https://github.com/user-attachments/assets/87da5047-ad5f-41b5-9e5c-0a134dcf7915)
+
+
+# Base de datos:
+
+![image](https://github.com/user-attachments/assets/37cc15b2-758e-484b-a5cb-239197471b32)
+
+
+![image](https://github.com/user-attachments/assets/31b6e7ae-16f7-454d-b1d3-14c1027c482a)
